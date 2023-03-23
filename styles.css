@@ -1,0 +1,170 @@
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px/2);
+  top: 92px;
+}
+.hamburguer{
+  height: 40px;
+  width: 40px;
+  left: 311px;
+  top: 4px;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.My-logo{
+  width: 76px;
+  height: 20px; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070FF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+}
+
+
+/*.header-1{
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;  
+}
+.navbar-flex{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  mix-blend-mode: multiply;
+  background: #6070FF;
+}
+
+
+.Portfolio{
+  position: absolute;
+  height: 24px;
+  left: 0px;
+  right: 68px;
+  top: calc(50% - 24px/2);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.About{
+  position: absolute;
+  height: 24px;
+  left: 0px;
+  right: 68px;
+  top: calc(50% - 24px/2);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.Contact{
+  position: absolute;
+  height: 24px;
+  left: 0px;
+  right: 68px;
+  top: calc(50% - 24px/2);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}*/
+.Alexandra{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172B4D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+
+.description{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  background: #FFFFFF;
+}
+
+.social-media.icons{
+width: 170.17px;
+height: 20px;
+}
+.twitter{
+    position: absolute;
+    left: 6.4%;
+    right: 88.27%;
+    top: 77.81%;
+    bottom: 18.88%;    
+}
+
+.Linkedin{
+   position: absolute;
+   left: 16.8%;
+   right: 81.87%;
+   top: 78.85%;
+   bottom: 18.87%;   
+}
+
+.m{
+  position: absolute;
+  left: 27.47%;
+  right: 67.2%;
+  top: 78.15%;
+  bottom: 19.21%;
+    
+}
+.GitHub{
+  position: absolute;
+  left: 38.13%;
+  right: 57.07%;
+  top: 77.81%;
+  bottom: 18.87%; 
+}
+.paz{
+  position: absolute;
+  left: 48%;
+  right: 48.22%;
+  top: 77.81%;
+  bottom: 18.87%; 
+}
