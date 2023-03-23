@@ -1,14 +1,10 @@
-.flex-container{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 114px 24px;
-  gap: 12px;
-  position: absolute;
-  width: 375px;
-  height: 604px;
-  left: calc(50% - 375px/2);
-  top: 92px;
+body{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(/img/BackGround.png);
+  margin: 0;
+  justify-content: center;
+  text-align: center;
 }
 .hamburguer{
   height: 40px;
@@ -36,71 +32,6 @@
   padding: 10px 12px;
 }
 
-
-/*.header-1{
-  position: absolute;
-  width: 375px;
-  height: 718px;
-  left: 0px;
-  top: 0px;
-  background: #FFFFFF;  
-}
-.navbar-flex{
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-  mix-blend-mode: multiply;
-  background: #6070FF;
-}
-
-
-.Portfolio{
-  position: absolute;
-  height: 24px;
-  left: 0px;
-  right: 68px;
-  top: calc(50% - 24px/2);
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-}
-.About{
-  position: absolute;
-  height: 24px;
-  left: 0px;
-  right: 68px;
-  top: calc(50% - 24px/2);
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-}
-.Contact{
-  position: absolute;
-  height: 24px;
-  left: 0px;
-  right: 68px;
-  top: calc(50% - 24px/2);
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-}*/
 .Alexandra{
   font-family: 'Poppins';
   font-style: normal;
@@ -116,14 +47,16 @@
 }
 
 
-
-.description{
+#description{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   background: #FFFFFF;
+  flex:none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .social-media.icons{
@@ -139,11 +72,11 @@ height: 20px;
 }
 
 .Linkedin{
-   position: absolute;
-   left: 16.8%;
-   right: 81.87%;
-   top: 78.85%;
-   bottom: 18.87%;   
+  position: absolute;
+  left: 16.8%;
+  right: 81.87%;
+  top: 77.85%;
+  bottom: 18.87%; 
 }
 
 .m{
