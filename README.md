@@ -29,16 +29,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖Portfolio📖 <a name="about-project"></a>
 
-**[My Portfolio]** A simple webpage based on HTML and CSS describing a basic info from a developer.
+**My Portfolio** A simple webpage based on HTML and CSS describing a basic info from a developer.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- Languages: HTML , CSS
-- Technologies used: Linters, Github , Visual Code
+- Languages: HTML, CSS.
+- Technologies used: Linters, Github, Visual Code.
 
 <details>
   <summary>Client</summary>
@@ -85,7 +85,7 @@ Run git clone https://github.com/CarlosZ96/Portfolio
 
 ### Prerequisites
 
-Basic Knowledge of HTML and CSS 
+Basic Knowledge of HTML and CSS. 
 
 ### Install
 
@@ -121,8 +121,8 @@ You can deploy this project using visual code or github itself on Settings > pag
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[About myself section coming soon..]**
-- [ ] **[Sections of my works coming soon..]**
+-  **About myself section coming soon..**
+-  **Sections of my works coming soon..**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
