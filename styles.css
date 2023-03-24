@@ -15,6 +15,9 @@ body {
   #description {
     width: 85%;
   }
+  .Works{
+    width: 85%;
+  }
 }
 
 .header-2 {
@@ -131,6 +134,7 @@ body {
   top: 470px;
   border-radius: 0;
   padding-left: 24px;
+  padding-bottom: 136px;
   list-style: none;
 }
 
@@ -144,4 +148,238 @@ body {
   padding-top: 12px;
   display: flex;
   flex-direction: row;
+}
+
+.Works {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.screenshot-img {
+  height: 220px;
+  width: 295px;
+  left: 16px;
+  top: 16px;
+  border-radius: 8px;
+}
+
+.project-tittle {
+  height: 36px;
+  width: 295px;
+  left: 0;
+  top: 0;
+  border-radius: nullpx;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+}
+
+.frame {
+  height: 32px;
+  width: inherit;
+  left: 0px;
+  top: 48px;
+  border-radius: 0px;
+  display: flex;
+  padding-left: 12px;
+  flex-direction: row;
+  list-style: none;
+}
+
+#canopy {
+  height: 32px;
+  width: 55px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  padding: 8px 0 8px 0;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #344563;
+}
+
+#img-point {
+  height: 8px;
+  width: 8px;
+  left: 67px;
+  top: 12px;
+  border-radius: 0;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#img-point-2 {
+  height: 8px;
+  width: 8px;
+  left: 187px;
+  top: 12px;
+  border-radius: 0;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+#role {
+  height: 16px;
+  width: 88px;
+  left: 0px;
+  top: 8px;
+  border-radius: nullpx;
+  padding: 8px 0 8px 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #7A869a;
+}
+
+#year {
+  top: 8px;
+  font-size: 13px;
+  text-align: left;
+  color: #7A869A;
+  padding-right: 75px;
+  padding-left: 12px;
+  padding-top: 4px;
+}
+
+#description-2 {
+  border-radius: nullpx;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+  padding: 20px 16px 12px 16px;
+}
+
+#tags-list {
+  height: 24px;
+  width: 214px;
+  left: 0;
+  top: 180px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-align: left;
+  padding-left: 8px;
+}
+
+.tag {
+  text-decoration: none;
+  padding: 4px 12px 4px 12px;
+}
+
+#h-tag {
+  height: 24px;
+  width: 57px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+#c-tag {
+  height: 24px;
+  width: 49px;
+  left: 65px;
+  top: 0;
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+#j-tag {
+  height: 24px;
+  width: 92px;
+  left: 122px;
+  top: 0;
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+}
+
+#html {
+  background: #ebebff;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  height: 16px;
+  width: 33px;
+  left: 12px;
+  top: 4px;
+  border-radius: nullpx;
+  color: #6070ff;
+}
+
+#css {
+  background: #ebebff;
+  border-radius: 8px;
+  width: 25px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+#JavaScript {
+  background: #ebebff;
+  border-radius: 8px;
+  width: 68px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.actions {
+  height: 72px;
+  width: 295px;
+  left: 0;
+  top: 216px;
+  border-radius: 0;
+  padding: 16px 16px 16px 12px;
+}
+
+.NormalB {
+  height: 48px;
+  width: 126px;
+  left: 0;
+  top: 12px;
+  border-radius: 8px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  padding: 0 0 0 0;
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
