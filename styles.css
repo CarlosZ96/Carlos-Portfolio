@@ -1,5 +1,21 @@
 body {
   font-family: 'Poppins', sans-serif;
+  background: #FFFFFF;
+}
+
+@media (max-width: 375px) {
+  .app-bar {
+    width: 85%;
+  }
+
+  .header-2 {
+    width: 75%;
+  }
+
+  #description {
+    width: 85%;
+  }
+
 }
 
 .header-2 {
@@ -16,6 +32,9 @@ body {
   top: 103.9993896484375px;
   border-radius: 0;
   padding-top: 104px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .Carlos {
@@ -49,7 +68,7 @@ body {
 
 #connect {
   height: 24px;
-  width: 217px;
+  width: 130px;
   left: 0;
   top: 0;
   border-radius: 0;
@@ -59,7 +78,7 @@ body {
   line-height: 24px;
   color: #7f8cff;
   padding-left: 24px;
-  padding-right: 234px;
+  justify-self: left;
 }
 
 .app-bar {
@@ -69,6 +88,7 @@ body {
   top: 0;
   border-radius: 0;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   margin: 0%;
 }
@@ -117,10 +137,12 @@ body {
 
 .img-icons {
   height: 19.962478637695312px;
-  width: 19.985925674438477px;
+  width: inherit;
   left: 24px;
   top: 470px;
   border-radius: 0;
   padding-left: 19.01px;
   padding-top: 12px;
+  display: flex;
+  flex-direction: row;
 }
