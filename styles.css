@@ -1,38 +1,28 @@
-body{
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-image: url(/img/BackGround.png);
-  margin: 0;
-  justify-content: center;
-  text-align: center;
-}
-.hamburguer{
-  height: 40px;
-  width: 40px;
-  left: 311px;
-  top: 4px;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
 
-.My-logo{
-  width: 76px;
-  height: 20px; 
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: #6070FF;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
+.header-2{
+background-image: url(img/BackGround.png);
+font-style: normal;
+background-repeat: no-repeat;
+background-size: 100%;
+margin: 0;
+justify-content: center;
+text-align: center;
+height: inherit;
+width:inherit;
+left: -34px;
+top: 103.9993896484375px;
+border-radius: 0px;
+padding-top: 104px;
 }
+.Carlos{
+  height: 150px;
+  width: 327px;
+  left: 24px;
+  top: 114px;
+  border-radius: nullpx;
+  width: 327px;
+  height: 150px;
 
-.Alexandra{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -41,63 +31,97 @@ body{
   display: flex;
   align-items: center;
   color: #172B4D;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  padding-left: 24px;
+  padding-right: 24px;
 }
-
-
 #description{
+  width: 327px;
+  height: 146px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  background: #FFFFFF;
-  flex:none;
-  order: 1;
-  flex-grow: 0;
+  color: #344563;
+  padding-left: 24px;
+  margin-bottom: 12px;
+}
+#connect{
+  height: 24px;
+  width: 217px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+  padding-left: 24px;
+  padding-right: 234px;
 }
 
-.social-media.icons{
-width: 170.17px;
-height: 20px;
+.app-bar{
+  height: 48px;
+  width:inherit;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0%;
+  
 }
-.twitter{
-    position: absolute;
-    left: 6.4%;
-    right: 88.27%;
-    top: 77.81%;
-    bottom: 18.88%;    
+.My-logo{
+  width: 76px;
+  height: 20px;  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070FF;
+  padding: 10px 12px 10px 12px;
+}
+.hamburguer{
+  height: 24px;
+  width: 24px;
+  left: 8px;
+  top: 8px;
+  border-radius: 0px;
+  padding-right: 35px;
+  padding-top: 20px;
 }
 
-.Linkedin{
-  position: absolute;
-  left: 16.8%;
-  right: 81.87%;
-  top: 77.85%;
-  bottom: 18.87%; 
+.H-iamge{
+  height: 12px;
+  width: 18px;
+  left: 3px;
+  top: 6px;
+  border-radius: 0px;  
 }
 
-.m{
-  position: absolute;
-  left: 27.47%;
-  right: 67.2%;
-  top: 78.15%;
-  bottom: 19.21%;
-    
+.social-media-icons{
+ padding: 0px;
+ display: flex;
+ justify-content:space-between;
+ flex-direction: row;
+ height: 20.000062942504883px;
+ width: 170.1666717529297px;
+ left: 24px;
+ top: 470px;
+ border-radius: 0px;
+ padding-left: 24px;
+ list-style:none;
 }
-.GitHub{
-  position: absolute;
-  left: 38.13%;
-  right: 57.07%;
-  top: 77.81%;
-  bottom: 18.87%; 
+
+.img-icons{
+  height: 19.962478637695312px;
+  width: 19.985925674438477px;
+  left: 24px;
+  top: 470px;
+  border-radius: 0px;
+  padding-left: 19.01px;
+  padding-top: 12px; 
 }
-.paz{
-  position: absolute;
-  left: 48%;
-  right: 48.22%;
-  top: 77.81%;
-  bottom: 18.87%; 
-}
+
