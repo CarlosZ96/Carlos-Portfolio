@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 @media (max-width: 375px) {
@@ -15,7 +15,6 @@ body {
   #description {
     width: 85%;
   }
-
 }
 
 .header-2 {
