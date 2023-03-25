@@ -384,13 +384,12 @@ body {
 .NormalB {
   height: 48px;
   width: 126px;
-  left: 0px;
+  left: 0;
   top: 12px;
   padding: 12px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
   gap: 10px;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -407,8 +406,7 @@ body {
   color: #396df2;
   flex: none;
   order: 0;
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: 'Poppins', sans-serif;
   flex-grow: 0;
   font-size: 14px;
   font-style: normal;
@@ -491,7 +489,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   display: flex;
   align-items: center;
