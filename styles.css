@@ -156,9 +156,9 @@ body {
   grid-template-columns: auto;
 }
 
-.About-My{
-display: flex;
-flex-direction: column;  
+.About-My {
+  display: flex;
+  flex-direction: column;
 }
 
 .Top {
