@@ -156,8 +156,6 @@ body {
 .Works {
   display: grid;
   grid-template-columns: auto;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   padding: 16px;
   gap: 12px;
@@ -168,7 +166,6 @@ body {
 .About-My {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -385,16 +382,36 @@ body {
 }
 
 .NormalB {
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
+  height: 48px;
+  width: 126px;
+  left: 0px;
+  top: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+#sbutton {
+  height: 24px;
+  width: 90px;
+  left: 12px;
+  top: 12px;
+  border-radius: nullpx;
   letter-spacing: 0.03em;
   text-align: center;
   color: #396df2;
-  padding: 12px;
-  box-sizing: border-box;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
+  flex: none;
+  order: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  flex-grow: 0;
+  font-size: 14px;
+  font-style: normal;
 }
 
 .Myself {
@@ -439,8 +456,10 @@ body {
 }
 
 .Normalbc {
-  height: 48px;
-  width: 126px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
   left: 0;
   top: 12px;
   border-radius: 8px;
@@ -459,9 +478,21 @@ body {
   list-style: none;
   padding-left: 36px;
   justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
 }
 
 .languages {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
   display: flex;
   align-items: center;
   height: 24px;
@@ -504,6 +535,12 @@ body {
   margin-top: 12px;
   display: flex;
   flex-direction: row;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #253858;
 }
 
 .js-img {
