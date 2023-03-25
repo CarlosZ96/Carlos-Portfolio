@@ -177,8 +177,8 @@ body {
 }
 
 .screenshot-img {
-  height: 220px;
-  width: 295px;
+  height: 100%;
+  width: 100%;
   left: 16px;
   top: 16px;
   border-radius: 8px;
@@ -189,6 +189,7 @@ body {
   width: 295px;
   left: 0;
   top: 0;
+  font-family: 'Poppins', sans-serif;
   border-radius: nullpx;
   font-size: 32px;
   font-weight: 700;
@@ -196,6 +197,15 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: #172b4d;
+}
+.project-tittle-2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;  
 }
 
 .frame {
