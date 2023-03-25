@@ -21,6 +21,9 @@ body {
   .Works {
     width: 85%;
   }
+  .screenshot-img{
+    width: 85%;
+  }
 }
 
 .header-2 {
@@ -177,11 +180,12 @@ body {
 }
 
 .screenshot-img {
-  height: 220px;
-  width: 295px;
+  width: 100%;
+  height: 100%;
   left: 16px;
   top: 16px;
   border-radius: 8px;
+  background-size: cover;
 }
 
 .project-tittle {
@@ -196,6 +200,7 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: #172b4d;
+  margin: 0 0 0 0;
 }
 
 .frame {
@@ -444,7 +449,8 @@ body {
 }
 
 .skill {
-  padding: 1px 2px 1px 2px;
+display: flex;
+flex-direction: column;
 }
 
 .skill-list {
