@@ -205,7 +205,7 @@ body {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #344563;
 }
@@ -257,7 +257,6 @@ body {
 
 #description-2 {
   border-radius: nullpx;
-  font-family: Poppins;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -293,7 +292,6 @@ body {
   border-radius: 8px;
   padding: 4px 12px 4px 12px;
   background: #ebebff;
-  border-radius: 8px;
   margin-right: 8px;
 }
 
@@ -302,7 +300,6 @@ body {
   width: 49px;
   left: 65px;
   top: 0;
-  border-radius: 8px;
   padding: 4px 12px 4px 12px;
   background: #ebebff;
   border-radius: 8px;
@@ -314,7 +311,6 @@ body {
   width: 92px;
   left: 122px;
   top: 0;
-  border-radius: 8px;
   padding: 4px 12px 4px 12px;
   background: #ebebff;
   border-radius: 8px;
@@ -380,8 +376,6 @@ body {
   padding: 12px;
   box-sizing: border-box;
   border: 1px solid #6070ff;
-  border-radius: 8px;
-  padding: 0 0 0 0;
   color: #396df2;
   font-size: 17px;
   font-weight: 500;
@@ -440,7 +434,6 @@ body {
   padding: 12px;
   box-sizing: border-box;
   border: 1px solid #6070ff;
-  border-radius: 8px;
   color: #396df2;
   font-style: normal;
   letter-spacing: 0.03em;
@@ -461,9 +454,9 @@ body {
   align-items: center;
   height: 24px;
   left: 12px;
-  color: #000000;
-  height: 24px;
+  color: #000;
   width: 290px;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -496,14 +489,13 @@ body {
 .jmenu {
   background: #f7f7f9;
   border-radius: 8px;
-  border-radius: 8px;
   margin-top: 12px;
   display: flex;
   flex-direction: row;
 }
 
 .js-img {
-  height: 48px;
+  height: 47px;
   width: 48px;
   left: 12px;
   top: 9px;
@@ -519,7 +511,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   margin-left: 16px;
 }
@@ -534,5 +526,5 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
 }
