@@ -7,14 +7,10 @@ body {
 
 @media (max-width: 375px) {
   .app-bar {
-    width: 85%;
+    width: 70%;
   }
 
   .header-2 {
-    width: 75%;
-  }
-
-  #description {
     width: 85%;
   }
 
@@ -29,22 +25,22 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 0;
-  justify-content: center;
   text-align: center;
   height: inherit;
   width: inherit;
   left: -34px;
   top: 103.9993896484375px;
   border-radius: 0;
-  padding-top: 104px;
+  padding-top: 162px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
 .Carlos {
-  height: 150px;
   width: 327px;
+  height: 100%;
   left: 24px;
   top: 114px;
   border-radius: nullpx;
@@ -53,10 +49,11 @@ body {
   font-size: 40px;
   line-height: 52px;
   display: flex;
-  align-items: center;
+  text-align: left;
   color: #172b4d;
   padding-left: 24px;
   padding-right: 24px;
+  margin: 0 0 0 0;
 }
 
 #description {
@@ -69,6 +66,7 @@ body {
   color: #344563;
   padding-left: 24px;
   margin-bottom: 12px;
+  margin: 6 0 0 0;
 }
 
 #connect {
@@ -88,7 +86,7 @@ body {
 
 .app-bar {
   height: 48px;
-  width: inherit;
+  width: 100%;
   left: 0;
   top: 0;
   border-radius: 0;
@@ -406,7 +404,8 @@ body {
   border-radius: 8px;
 }
 
-#sbutton {
+.NormalB::before {
+  content: "See project";
   height: 24px;
   width: 90px;
   left: 12px;
@@ -421,6 +420,22 @@ body {
   flex-grow: 0;
   font-size: 14px;
   font-style: normal;
+}
+
+.NormalB:hover::before {
+  color: #fff;
+}
+
+.NormalB:active::before {
+  color: #fff;
+}
+
+.NormalB:hover {
+  background-color: #6070ff;
+}
+
+.NormalB:active {
+  background-color: #2230d2;
 }
 
 .Myself {
@@ -465,20 +480,47 @@ body {
 }
 
 .Normalbc {
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: center;
-  left: 0;
-  top: 12px;
-  border-radius: 8px;
+  height: 48px;
+  width: 162px;
+  left: 0px;
+  top: 298px;
   padding: 12px;
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
   border: 1px solid #6070ff;
-  color: #396df2;
+  border-radius: 8px;
+}
+
+.Normalbc::before {
+  content: "Get my resume";
   font-style: normal;
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #396df2;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.03em;
+}
+
+.Normalbc:hover::before {
+  color: #fff;
+}
+
+.Normalbc:active::before {
+  color: #fff;
+}
+
+.Normalbc:hover {
+  background-color: #6070ff;
+}
+
+.Normalbc:active {
+  background-color: #2230d2;
 }
 
 .languages-menu {
@@ -497,19 +539,15 @@ body {
 }
 
 .languages {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0;
-  text-align: left;
   display: flex;
-  align-items: center;
-  height: 24px;
-  left: 12px;
-  color: #000;
-  width: 290px;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #000;
 }
 
 .f-botton {
