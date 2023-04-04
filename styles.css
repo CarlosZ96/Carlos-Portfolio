@@ -586,3 +586,20 @@ body {
   line-height: 24px;
   color: #000;
 }
+
+.Form{
+  width: cover;
+  height: 779px;
+  left: 0px;
+  top: 5410px;
+  background: #6070ff;
+  display: flex;
+  flex-direction: column;
+  background-image: url(IMG/contact-form.png);
+  border-top-left-radius: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  padding-left: 24px;
+  padding-right: 24px;  
+}
