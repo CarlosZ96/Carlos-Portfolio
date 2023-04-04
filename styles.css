@@ -595,7 +595,7 @@ body {
   background: #6070ff;
   display: flex;
   flex-direction: column;
-  background-image: url(IMG/contact-form.png);
+  background-image: url(img/contact-form.png);
   border-top-left-radius: 150px;
   background-repeat: no-repeat;
   background-size: contain;
