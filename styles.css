@@ -587,7 +587,7 @@ body {
   color: #000;
 }
 
-.Form{
+.Form {
   width: cover;
   height: 779px;
   left: 0px;
@@ -601,5 +601,36 @@ body {
   background-size: contain;
   background-position: top right;
   padding-left: 24px;
-  padding-right: 24px;  
+  padding-right: 24px;
+}
+
+.f-txt {
+  height: fit-content;
+}
+
+.f-tittle {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  margin-top: 103px;
+  margin-bottom: 12px;
+}
+
+.f-paragraph {
+  width: 327px;
+  height: 137px;
+  left: 24px;
+  top: 4802px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
 }
