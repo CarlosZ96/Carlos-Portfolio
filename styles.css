@@ -1,8 +1,8 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background: #fff;
   display: grid;
   grid-template-columns: auto;
+  margin: 0;
 }
 
 .header-2 {
@@ -739,8 +739,136 @@ body {
 }
 
 @media (min-width: 768px) {
+  .main {
+    height: 916px;
+    left: 0px;
+    top: 1px;
+    border-bottom-left-radius: 140px;
+    background-color: #fff;
+  }
+
   .dsk-menu {
     display: flex;
     list-style: none;
+    margin: 0;
+    margin-right: 143px;
+    padding: 0;
+  }
+
+  .dsk-menu p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 10px;
+    width: 86px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #344563;
+    margin: 0;
+    margin-bottom: 288px;
+  }
+
+  .My-logo {
+    margin-left: 143px;
+  }
+
+  .hamburguer {
+    display: none;
+  }
+
+  .H-iamge {
+    display: none;
+  }
+
+  .modal__header {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .Carlos {
+    width: fit-content;
+    height: 122px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    justify-content: left;
+    letter-spacing: 0.37px;
+    color: #091e42;
+    text-align: start;
+    margin: 0;
+    margin-bottom: 12px;
+    padding: 0;
+    padding-right: 40%;
+  }
+
+  #description {
+    height: 98px;
+    width: 920px;
+    left: 0;
+    top: 134px;
+    border-radius: nullpx;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    margin: 0;
+    text-align: start;
+  }
+
+  #connect {
+    margin: 0;
+    margin-top: 12px;
+    padding: 0;
+    text-align: start;
+  }
+
+  .icons-secction {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .social-media-icons {
+    margin: 0;
+    margin-right: 790px;
+    padding: 0;
+  }
+
+  .Works {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    margin-bottom: 142px;
+  }
+
+  .screen-shot{
+    height: 448px;
+    width: 544px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
+  }
+
+  .screenshot-img{
+  display: none;  
   }
 }
