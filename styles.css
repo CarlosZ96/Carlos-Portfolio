@@ -733,14 +733,14 @@ body {
 }
 
 @media (max-width: 768px) {
-  .dsk-menu{
+  .dsk-menu {
     display: none;
   }
 }
 
-@media (min-width: 768px){
- .dsk-menu{
- display: flex;
- list-style: none; 
- }
+@media (min-width: 768px) {
+  .dsk-menu {
+    display: flex;
+    list-style: none;
+  }
 }
