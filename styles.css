@@ -5,24 +5,6 @@ body {
   grid-template-columns: auto;
 }
 
-@media (max-width: 375px) {
-  .app-bar {
-    width: 85%;
-  }
-
-  .header-2 {
-    width: 75%;
-  }
-
-  #description {
-    width: 85%;
-  }
-
-  .Works {
-    width: 85%;
-  }
-}
-
 .header-2 {
   background-image: url(img/BackGround.png);
   font-style: normal;
@@ -748,4 +730,17 @@ body {
 
 .b-submit:active {
   background-color: #737de4;
+}
+
+@media (max-width: 768px) {
+  .dsk-menu{
+    display: none;
+  }
+}
+
+@media (min-width: 768px){
+ .dsk-menu{
+ display: flex;
+ list-style: none; 
+ }
 }
