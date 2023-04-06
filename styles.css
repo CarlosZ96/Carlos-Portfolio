@@ -276,7 +276,7 @@ body {
 
 #tags-list {
   height: 24px;
-  width: 214px;
+  width: 100%;
   left: 0;
   top: 180px;
   border-radius: 0;
@@ -739,6 +739,13 @@ body {
 }
 
 @media (min-width: 768px) {
+  .body{
+    height: 916px;
+    width: 1440px;
+    left: 0px;
+
+  }
+  
   .main {
     height: 916px;
     left: 0px;
@@ -848,27 +855,69 @@ body {
   }
 
   .Works {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+    height: 496px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 24px;
+    right: 0;
+    bottom: 0;
     display: flex;
     flex-direction: row;
     background: #fff;
     border: 1px solid #dfe1e6;
-    border-radius: 24px;
-    margin-bottom: 142px;
+    margin: 142px;
   }
 
-  .screen-shot{
+  .screen-shot {
     height: 448px;
     width: 544px;
     left: 24px;
     top: 24px;
     border-radius: 8px;
+    margin-right: 46px;
   }
 
-  .screenshot-img{
-  display: none;  
+  .screenshot-img {
+    display: none;
+  }
+
+  #tonic {
+    background-image: url(img/tonic.png);
+    background-size: cover;
+  }
+
+  #r-tag {
+    height: 24px;
+    width: 100px;
+    left: 122px;
+    top: 0;
+    padding: 4px 10px 4px 10px;
+    background: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+    margin-right: 8px;
+  }
+
+  #ruby {
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    left: 12px;
+    top: 4px;
+    color: #6070ff;
+  }
+
+  #c-multi {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #multi {
+    background-image: url(img/Snapshoot\ Portfolio3.png);
+    background-size: cover;
   }
 }
