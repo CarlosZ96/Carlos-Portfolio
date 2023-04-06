@@ -2,7 +2,9 @@ body {
   font-family: 'Poppins', sans-serif;
   display: grid;
   grid-template-columns: auto;
+  justify-content: center;
   margin: 0;
+  padding: 0;
 }
 
 .header-2 {
@@ -151,6 +153,7 @@ body {
   gap: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  background-color: #fff;
 }
 
 .Top {
@@ -203,7 +206,8 @@ body {
   list-style: none;
 }
 
-#canopy {
+#canopy::before {
+  content: "CANOPY";
   height: 32px;
   width: 55px;
   left: 0;
@@ -238,7 +242,8 @@ body {
   padding-top: 2px;
 }
 
-#role {
+#role::before {
+  content: "Back End Dev";
   height: 16px;
   width: 88px;
   left: 0;
@@ -253,7 +258,8 @@ body {
   color: #7a869a;
 }
 
-#year {
+#year::before {
+  content: "2015";
   top: 8px;
   font-size: 13px;
   text-align: left;
@@ -263,15 +269,16 @@ body {
   padding-top: 4px;
 }
 
-#description-2 {
+#description-2::before {
+  content: "A daily selection of privately personalized reads; no accounts or sign-ups required.";
   border-radius: nullpx;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
-  text-align: left;
   color: #344563;
-  padding: 20px 16px 12px 16px;
+  padding-right: 30px;
+  margin-right: 16px;
 }
 
 #tags-list {
@@ -736,22 +743,42 @@ body {
   .dsk-menu {
     display: none;
   }
+
+  #r-tag {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
-  .body{
-    height: 916px;
-    width: 1440px;
-    left: 0px;
-
+  .portfolio {
+    width: 100%;
+    justify-content: center;
   }
-  
+
+  .app-bar {
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+  }
+
   .main {
+    width: 1440px;
     height: 916px;
     left: 0px;
     top: 1px;
-    border-bottom-left-radius: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     background-color: #fff;
+  }
+
+  .header-2 {
+    background-image: url(img/Header\ bg.png);
+    background-size: cover;
+    border-radius: 0px;
+    margin-bottom: 142px;
+    height: 916px;
   }
 
   .dsk-menu {
@@ -854,70 +881,207 @@ body {
     padding: 0;
   }
 
+  .screenshot-img {
+    display: none;
+  }
+
+  .my-works {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 0;
+    padding: 0 142px 0 142px;
+  }
+
   .Works {
     height: 496px;
-    width: 100%;
-    left: 0;
-    top: 0;
+    width: 1156px;
+    left: 0px;
+    top: 0px;
     border-radius: 24px;
-    right: 0;
-    bottom: 0;
+    padding-right: 22px;
+    padding-left: 22px;
+    margin: 0;
+    margin-bottom: 142px;
     display: flex;
     flex-direction: row;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    margin: 142px;
   }
 
   .screen-shot {
     height: 448px;
     width: 544px;
-    left: 24px;
+    left: 590px;
     top: 24px;
     border-radius: 8px;
-    margin-right: 46px;
-  }
-
-  .screenshot-img {
-    display: none;
   }
 
   #tonic {
+    height: 448px;
+    width: 544px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
     background-image: url(img/tonic.png);
+    background-size: cover;
+  }
+
+  .text-block {
+    width: 544px;
+    padding-right: 46px;
+  }
+
+  #tags-list {
+    padding: 0;
+  }
+
+  #c-multi {
+    flex-direction: row-reverse;
+  }
+
+  #multi {
+    height: 448px;
+    width: 544px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
+    background-image: url(img/Snapshoot\ Portfolio3.png);
+    background-size: cover;
+  }
+
+  #facebook {
+    height: 448px;
+    width: 544px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
+    background-image: url(img/Snapshoot\ PortfolioD.png);
+    background-size: cover;
+  }
+
+  #c-uber {
+    flex-direction: row-reverse;
+  }
+
+  #uber {
+    height: 448px;
+    width: 544px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
+    background-image: url(img/Snapshoot\ Portfolio4.png);
     background-size: cover;
   }
 
   #r-tag {
     height: 24px;
-    width: 100px;
+    width: 107px;
     left: 122px;
     top: 0;
-    padding: 4px 10px 4px 10px;
+    padding: 4px 12px 4px 12px;
     background: #ebebff;
     border-radius: 8px;
-    color: #6070ff;
     margin-right: 8px;
   }
 
   #ruby {
+    background: #ebebff;
     border-radius: 8px;
-    font-size: 11px;
+    width: 68px;
+    height: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: 500;
+    font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    text-align: left;
-    left: 12px;
-    top: 4px;
     color: #6070ff;
   }
 
-  #c-multi {
-    display: flex;
-    flex-direction: row-reverse;
+  .frame {
+    padding: 0;
   }
 
-  #multi {
-    background-image: url(img/Snapshoot\ Portfolio3.png);
-    background-size: cover;
+  #canopy::before {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
   }
+
+  #c-multi #canopy::before {
+    content: "FACEBOOK";
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #344563;
+  }
+
+  #description-2::before {
+    padding: 0;
+    margin-right: 50%;
+  }
+
+  #c-multi #description-2::before {
+    content: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.";
+  }
+
+  #role::before {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  #year::before {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+  
+  #c-multi #role::before{
+  content: "Full Stack Dev";  
+  } 
+
+
+
+
+  /*---------------------------------------------------------------*/
+
+  .About-My {
+    width: 1440px;
+    height: 924px;
+    left: 1440px;
+    top: 4535px;
+    background: #fff;
+    padding-top: 166px;
+  }
+
+  .Myself {
+    padding: 0;
+    margin-bottom: 12px;
+  }
+
+  .icons-secction-2 {
+    justify-content: start;
+  }
+
+  .social-media-icons-2 {
+    padding: 0;
+  }
+
+  .img-icons {
+    padding: 0;
+  }
+
+  .actions {
+    padding: 0;
+  }
+
 }
