@@ -422,6 +422,40 @@ body {
   margin: 0 0 0 0;
 }
 
+.NormalB::before {
+  content: "See project";
+  height: 24px;
+  width: 90px;
+  left: 12px;
+  top: 12px;
+  border-radius: nullpx;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #396df2;
+  flex: none;
+  order: 0;
+  font-family: 'Poppins', sans-serif;
+  flex-grow: 0;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.NormalB:hover::before {
+  color: #fff;
+}
+
+.NormalB:active::before {
+  color: #fff;
+}
+
+.NormalB:hover {
+  background-color: #6070ff;
+}
+
+.NormalB:active {
+  background-color: #2230d2;
+}
+
 .social-media-icons-2 {
   padding: 0;
   display: flex;
