@@ -1176,13 +1176,10 @@ body {
   #c-multi .project-tittle::before {
     content: "Multi-Post Stories";
     font-family: 'Poppins', sans-serif;
-    font-size: 32px;
     font-weight: 700;
-    line-height: 44px;
     letter-spacing: 0;
     text-align: left;
     color: #172b4d;
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1192,13 +1189,9 @@ body {
   #c-uber .project-tittle::before {
     content: "Uber Navigation";
     font-family: 'Poppins', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44px;
     letter-spacing: 0;
     text-align: left;
     color: #172b4d;
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1217,8 +1210,8 @@ body {
     content: "2018";
   }
 
-  #c-facebook #canopy::before{
-   content: "FACEBOOK"; 
+  #c-facebook #canopy::before {
+    content: "FACEBOOK";
   }
 
   #c-facebook #description-2::before {
@@ -1418,4 +1411,5 @@ body {
     justify-self: center;
     align-items: center;
   }
+
 }
