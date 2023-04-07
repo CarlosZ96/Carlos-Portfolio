@@ -1176,7 +1176,6 @@ body {
   #c-multi .project-tittle::before {
     content: "Multi-Post Stories";
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
     letter-spacing: 0;
     text-align: left;
     color: #172b4d;
@@ -1411,5 +1410,4 @@ body {
     justify-self: center;
     align-items: center;
   }
-
 }
