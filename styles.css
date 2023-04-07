@@ -862,12 +862,11 @@ body {
 
   .header-2 {
     border-radius: 0;
-    margin-bottom: 142px;
     height: 916px;
     background-image: url(img/Header\ bg.png);
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 0;
+    margin: 0 0 142px 0;
   }
 
   .dsk-menu {
@@ -890,7 +889,7 @@ body {
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     color: #344563;
     margin: 0;
@@ -1154,7 +1153,6 @@ body {
   }
 
   #c-multi .project-tittle::before {
-    content: "Multi-Post Stories";
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1273,7 +1271,6 @@ body {
     width: 684px;
     border-radius: 0;
     text-align: center;
-    justify-self: end;
     margin: 0;
     padding: 0;
     justify-self: end;
@@ -1357,8 +1354,8 @@ body {
   .f-tittle {
     height: 56px;
     width: 801px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: nullpx;
     text-align: center;
     margin: 0;
@@ -1368,8 +1365,8 @@ body {
   .f-paragraph {
     height: 102px;
     width: 569px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: nullpx;
     text-align: center;
     margin: 0;
