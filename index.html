@@ -71,7 +71,7 @@
       </section>
       <section class="text-block">
         <header class="header-3">
-          <h2 class="project-tittle">Tonic</h2>
+          <h2 class="project-tittle"></h2>
         </header>
         <div>
           <ul class="frame">
@@ -95,21 +95,20 @@
         </div>
         <div class="actions">
           <button disabled class="NormalB">
-            <p id="sbutton">See project</p>
+            <p id="sbutton"></p>
           </button>
         </div>
       </section>
     </div>
-  
-  
+
+
     <div class="Works" id="c-multi">
       <section class="screen-shot" id="multi">
         <img src="img/Snapshoot Portfolio4.png" alt="project-image" class="screenshot-img">
       </section>
       <section class="text-block">
         <header class="header-3">
-          <h2 class="project-tittle-2">Multi-Post
-            Stories</h2>
+          <h2 class="project-tittle"></h2>
         </header>
         <div>
           <ul class="frame">
@@ -133,19 +132,19 @@
         </div>
         <div class="actions">
           <button disabled class="NormalB">
-            <p id="sbutton">See project</p>
+            <p id="sbutton"></p>
           </button>
         </div>
       </section>
     </div>
-  
+
     <div class="Works" id="c-facebook">
       <section class="screen-shot" id="facebook">
         <img src="img/Snapshoot Portfolio (2).png" alt="project-image" class="screenshot-img">
       </section>
       <section class="text-block">
         <header class="header-3">
-          <h2 class="project-tittle">Tonic</h2>
+          <h2 class="project-tittle"></h2>
         </header>
         <div>
           <ul class="frame">
@@ -169,20 +168,19 @@
         </div>
         <div class="actions">
           <button disabled class="NormalB">
-            <p id="sbutton">See project</p>
+            <p id="sbutton"></p>
           </button>
         </div>
       </section>
     </div>
-  
+
     <div class="Works" id="c-uber">
       <section class="screen-shot" id="uber">
         <img src="img/Snapshoot Portfolio3.png" alt="project-image" class="screenshot-img">
       </section>
       <section class="text-block">
         <header class="header-3">
-          <h2 class="project-tittle-2">Multi-Post
-            Stories</h2>
+          <h2 class="project-tittle"></h2>
         </header>
         <div>
           <ul class="frame">
@@ -206,7 +204,7 @@
         </div>
         <div class="actions">
           <button disabled class="NormalB">
-            <p id="sbutton">See project</p>
+            <p id="sbutton"></p>
           </button>
         </div>
       </section>
@@ -252,45 +250,51 @@
       <ul class="skill-list">
         <li>
           <ul class="languages-menu">
-            <li class="languages">Languages<button disabled class="f-botton"><img src="img/v.png" alt="sub-menu"
+            <li class="languages">
+              <p class="tx-languages">Languages</p><button disabled class="f-botton"><img src="img/v.png" alt="sub-menu"
                   class="v-img"></button>
             </li>
-            <li class="jmenu"><img src="img/JS (1).png" class="js-img">
-              <p class="jmenu-txt">JavaScript</p>
-            </li>
-            <li class="jmenu"><img src="img/HTML.png" class="js-img">
-              <p class="jmenu-txt">HTML</p>
-            </li>
-            <li class="jmenu"><img src="img/CSS.png" class="js-img">
-              <p class="jmenu-txt">CSS</p>
-            </li>
+            <div id="items">
+              <li class="jmenu"><img src="img/JS (1).png" class="js-img">
+                <p class="jmenu-txt">JavaScript</p>
+              </li>
+              <li class="jmenu"><img src="img/HTML.png" class="js-img">
+                <p class="jmenu-txt">HTML</p>
+              </li>
+              <li class="jmenu"><img src="img/CSS.png" class="js-img">
+                <p class="jmenu-txt">CSS</p>
+              </li>
+            </div>
           </ul>
         </li>
 
-
-        <li class="languages">Frameworks<button disabled class="f-botton"><img src="img/R.png" alt="sub-menu"
+        <li class="languages">
+          <p class="tx-languages">Frameworks</p><button disabled class="f-botton"><img src="img/R.png" alt="sub-menu"
               class="v-img-2"></button>
-        <li class="languages">Skills<button disabled class="f-botton"><img src="img/R.png" alt="sub-menu"
+        <li class="languages">
+          <p class="tx-languages">Skills</p><button disabled class="f-botton"><img src="img/R.png" alt="sub-menu"
               class="v-img-2"></button>
       </ul>
     </div>
   </section>
   <section class="Form">
-    <div class="f-txt">
-      <h1 class="f-tittle">Contact me</h1>
-      <p class="f-paragraph">If you have an application you are interested in developing, a feature that you need
-        built or a project that needs coding.
-        I’d love to help with it!</p>
+    <div class="form-con">
+      <div class="f-txt">
+        <h1 class="f-tittle">Contact me</h1>
+        <p class="f-paragraph">If you have an application you are interested in developing, a feature that you need
+          built or a project that needs coding.
+          I’d love to help with it!</p>
+      </div>
+      <form action="https://formspree.io/f/moqzkbbq" method="POST" class="fields">
+        <label for="name-input"><input type="text" name="name" id="name-input" maxlength="30" class="Input"
+            placeholder="Enter your name.." required></label>
+        <label for="email-input"><input type="email" name="email" id="email-input" class="input-email"
+            placeholder="Enter your email.." required></label>
+        <textarea class="message-field" cols="10" rows="8" maxlength="500"
+          placeholder="Write your message here..."></textarea>
+        <button class="b-submit" type="submit"></button>
+      </form>
     </div>
-    <form action="https://formspree.io/f/moqzkbbq" method="POST" class="fields">
-      <label for="name-input"><input type="text" name="name" id="name-input" maxlength="30" class="Input"
-          placeholder="Enter your name.." required></label>
-      <label for="email-input"><input type="email" name="email" id="email-input" class="input-email"
-          placeholder="Enter your email.." required></label>
-      <textarea class="message-field" cols="10" rows="8" maxlength="500"
-        placeholder="Write your message here..."></textarea>
-      <button class="b-submit" type="submit"></button>
-    </form>
   </section>
 
 </body>
