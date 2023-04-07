@@ -1016,6 +1016,8 @@ body {
   .text-block {
     width: 544px;
     padding-right: 46px;
+    margin-bottom: 70px;
+    margin-left: 46px;
   }
 
   #tags-list {
@@ -1152,16 +1154,6 @@ body {
     color: #172b4d;
   }
 
-  #c-multi .project-tittle::before {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    text-align: left;
-    color: #172b4d;
-  }
-
   #c-facebook .project-tittle::before {
     content: "Facebook 360";
     width: 496px;
@@ -1177,6 +1169,10 @@ body {
     color: #091e42;
   }
 
+  #c-facebook #role::before {
+    content: "Full Stack Dev";
+  }
+
   #c-multi .project-tittle::before {
     content: "Multi-Post Stories";
     font-family: 'Poppins', sans-serif;
@@ -1186,6 +1182,51 @@ body {
     letter-spacing: 0;
     text-align: left;
     color: #172b4d;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #c-uber .project-tittle::before {
+    content: "Uber Navigation";
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #172b4d;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #c-uber #role::before {
+    content: "Lead Developer";
+  }
+
+  #c-uber #canopy::before {
+    content: "Uber";
+  }
+
+  #c-uber #year::before {
+    content: "2018";
+  }
+
+  #c-facebook #canopy::before{
+   content: "FACEBOOK"; 
+  }
+
+  #c-facebook #description-2::before {
+    content: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.";
+  }
+
+  #c-uber #description-2::before {
+    content: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.";
   }
 
   .NormalB {
@@ -1281,7 +1322,7 @@ body {
     height: 24px;
     left: 24px;
     right: 78px;
-    top: calc(50% - 24px/2);
+    top: calc(50% - 24px / 2);
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -1377,5 +1418,4 @@ body {
     justify-self: center;
     align-items: center;
   }
-
 }
