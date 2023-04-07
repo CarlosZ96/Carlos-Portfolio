@@ -1,9 +1,17 @@
-body {
-  display: grid;
-  grid-template-columns: auto;
+.portfolio {
+  display: block;
+  gap: 24px;
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+  width: 375px;
+}
+
+.main {
+  width: 100%;
+  height: 718px;
+  left: 0px;
+  top: 0px;
 }
 
 .header-2 {
@@ -14,8 +22,8 @@ body {
   margin: 0;
   justify-content: center;
   text-align: center;
-  height: inherit;
-  width: inherit;
+  height: 718px;
+  width: 100%;
   left: -34px;
   top: 103.9993896484375px;
   border-radius: 0;
@@ -40,6 +48,8 @@ body {
   color: #172b4d;
   padding-left: 24px;
   padding-right: 24px;
+  margin: 0;
+  text-align: start;
 }
 
 #description {
@@ -50,8 +60,10 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  padding-left: 24px;
+  padding: 0;
+  margin: 0;
   margin-bottom: 12px;
+  text-align: start;
 }
 
 #connect {
@@ -71,7 +83,7 @@ body {
 
 .app-bar {
   height: 48px;
-  width: inherit;
+  width: 100%;
   left: 0;
   top: 0;
   border-radius: 0;
@@ -136,24 +148,42 @@ body {
   flex-direction: row;
 }
 
+.my-works {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  gap: 88px;
+  width: 100%;
+  height: 2788px;
+  left: 0px;
+  top: 718px;
+  background-color: #e5e5e5;
+  padding-bottom: 144px;
+}
+
 .Works {
   display: grid;
   grid-template-columns: auto;
-  align-items: center;
-  padding: 16px;
+  width: 327px;
   gap: 12px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  margin: 0;
+  background-color: #fff;
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .About-My {
-  width: 100%;
+  height: 1263px;
+  width: 375px;
   display: flex;
   flex-direction: column;
+  justify-content: left;
   gap: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  background-color: #fff;
 }
 
 .Top {
@@ -298,16 +328,20 @@ body {
   padding-top: 4px;
 }
 
+#description-2 {
+  height: 76px;
+  width: 295px;
+  margin: 0;
+}
+
 #description-2::before {
   content: "A daily selection of privately personalized reads; no accounts or sign-ups required.";
-  border-radius: nullpx;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
   color: #344563;
-  padding-right: 30px;
-  margin-right: 16px;
+  text-align: start;
 }
 
 #tags-list {
@@ -488,8 +522,7 @@ body {
   text-align: left;
   color: #172b4d;
   padding-top: 114px;
-  padding-left: 24px;
-  margin: 0 0 0 0;
+  margin: 0;
 }
 
 .social-media-icons-2 {
@@ -507,18 +540,21 @@ body {
 }
 
 .skill {
-  padding: 1px 2px 1px 2px;
+  height: 464.14678955078125px;
+  width: 327px;
+  left: 24px;
+  top: 484px;
+  border-radius: 0px;
 }
 
 .skill-list {
   list-style: none;
   height: 360px;
-  width: 684px;
+  width: 100%;
   left: 614px;
   top: 3753px;
   border-radius: 0;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 0;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -544,7 +580,6 @@ body {
   display: flex;
   flex-direction: column;
   list-style: none;
-  padding-left: 36px;
   justify-content: space-between;
   font-size: 20px;
   font-weight: 500;
@@ -553,6 +588,7 @@ body {
   text-align: left;
   font-family: 'Poppins', sans-serif;
   color: #000;
+  padding: 0;
 }
 
 .languages {
@@ -823,6 +859,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .portfolio {
+    width: 100%;
+  }
+
   .dsk-menu {
     display: none;
   }
@@ -837,15 +877,19 @@ body {
 }
 
 @media (min-width: 768px) {
-  .body {
-    width: 1440px;
+  .portfolio {
+    width: 100%;
+    background-color: #e5e5e5;
   }
 
   .app-bar {
-    width: 1440px;
+    width: 100%;
     height: 72px;
     left: 0;
     top: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15px;
   }
 
   .main {
@@ -853,20 +897,27 @@ body {
     height: 916px;
     left: 0;
     top: 1px;
-    background-color: #fff;
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
     margin: 0;
-  }
-
-  .header-2 {
-    border-radius: 0;
-    height: 916px;
     background-image: url(img/Header\ bg.png);
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 0 0 142px 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .header-2 {
+    width: 100%;
+    height: 846px;
+    left: 0px;
+    top: 71px;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+    background-image: none;
   }
 
   .dsk-menu {
@@ -897,7 +948,17 @@ body {
   }
 
   .My-logo {
-    margin-left: 143px;
+    height: 40px;
+    width: 100px;
+    left: 143px;
+    top: 16px;
+    border-radius: 0px;
+    padding: 10px 12px 10px 12px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
   }
 
   .hamburguer {
@@ -934,7 +995,7 @@ body {
   }
 
   #description {
-    height: 98px;
+    height: 239px;
     width: 920px;
     left: 0;
     top: 134px;
@@ -978,29 +1039,32 @@ body {
     margin-top: 12px;
     display: grid;
     grid-template-columns: auto;
-    justify-content: center;
   }
 
   .Works {
     height: 496px;
-    width: 1156px;
+    width: 100%;
     left: 0;
     top: 0;
     border-radius: 24px;
-    padding-right: 22px;
-    padding-left: 22px;
     margin: 0;
+    padding: 0;
     margin-bottom: 142px;
     display: flex;
     flex-direction: row;
+    justify-content: left;
+    background-color: #fff;
   }
 
   .screen-shot {
-    height: 448px;
-    width: 544px;
+    height: 100%;
+    width: 100%;
     left: 590px;
     top: 24px;
     border-radius: 8px;
+    margin-top: 24px;
+    margin-right: 22px;
+    margin-left: 22px;
   }
 
   #tonic {
@@ -1014,10 +1078,12 @@ body {
   }
 
   .text-block {
-    width: 544px;
-    padding-right: 46px;
-    margin-bottom: 70px;
-    margin-left: 46px;
+    width: min-content;
+    padding-left: 24px;
+  }
+
+  .tags {
+    margin-top: 24px;
   }
 
   #tags-list {
@@ -1110,9 +1176,17 @@ body {
     color: #344563;
   }
 
+  #description-2{
+    height: 70px;
+    width: 400px;
+    left: 24px;
+    top: 146px;
+    border-radius: nullpx;      
+  }
+
   #description-2::before {
+    border-radius: nullpx;
     padding: 0;
-    margin-right: 50%;
   }
 
   #c-multi #description-2::before {
@@ -1137,6 +1211,11 @@ body {
 
   #c-multi #role::before {
     content: "Full Stack Dev";
+  }
+
+  .project-tittle {
+    margin: 0;
+    padding-top: 48px;
   }
 
   #c-tonic .project-tittle::before {
@@ -1286,12 +1365,8 @@ body {
   }
 
   .skill {
-    width: 684px;
+    width: 447px;
     height: 360px;
-    left: 614px;
-    top: 3753px;
-    padding: 0;
-    display: flex;
   }
 
   .skill-list {
@@ -1301,12 +1376,12 @@ body {
 
   .languages {
     height: 72px;
-    width: 684px;
+    width: 100%;
     border-radius: 0;
     text-align: center;
     margin: 0;
     padding: 0;
-    justify-self: end;
+    justify-content: space-between;
   }
 
   .tx-languages {
@@ -1346,6 +1421,7 @@ body {
     height: 24px;
     margin: 0;
     margin-top: 16px;
+    margin-left: 12px;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
