@@ -72,7 +72,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/CarlosZ96/Portfolio)
+- [Live Demo Link](https://carlosz96.github.io/Carlos-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,12 +117,11 @@ You can deploy this project using visual code or github itself on Settings > pag
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--  **About myself section coming soon..**
--  **Sections of my works coming soon..**
+-  **Accessibility will come soon**
+-  **JavaScritp functionalities coming soon..**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
