@@ -471,7 +471,7 @@
   border-radius: nullpx;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #0E47d8;
+  color: #0e47d8;
   flex: none;
   order: 0;
   font-family: 'Poppins', sans-serif;
@@ -1090,6 +1090,18 @@
     display: none;
   }
 
+  .screen-shot {
+    height: 100%;
+    width: 100%;
+    left: 590px;
+    top: 24px;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-right: 22px;
+    margin-left: 22px;
+    box-sizing: content-box;
+  }
+
   .screen-shot:hover {
     animation-name: scale;
     animation-duration: 1.5s;
@@ -1118,18 +1130,6 @@
     display: flex;
     flex-direction: row;
     background-color: #fff;
-  }
-
-  .screen-shot {
-    height: 100%;
-    width: 100%;
-    left: 590px;
-    top: 24px;
-    border-radius: 8px;
-    margin-top: 24px;
-    margin-right: 22px;
-    margin-left: 22px;
-    box-sizing: content-box;
   }
 
   #tonic {
@@ -1165,10 +1165,6 @@
   }
 
   #j-tag:hover {
-    transform: scale(1.5);
-  }
-
-  #r-tag:hover {
     transform: scale(1.5);
   }
 
@@ -1219,6 +1215,10 @@
     background: #ebebff;
     border-radius: 8px;
     margin-right: 8px;
+  }
+
+  #r-tag:hover {
+    transform: scale(1.5);
   }
 
   #ruby {
@@ -1403,7 +1403,6 @@
   .NormalB:hover {
     transform: scale(1.222);
   }
-
 
   .About-My {
     width: 100%;
@@ -1604,7 +1603,7 @@
     padding: 0 116px 0 116px;
   }
 
-  .f-paragraph:hover{
+  .f-paragraph:hover {
     animation-name: scale;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
