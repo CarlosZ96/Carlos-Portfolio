@@ -410,7 +410,7 @@
   width: 33px;
   left: 12px;
   top: 4px;
-  color: #6070ff;
+  color: #1a30ff;
 }
 
 #css {
@@ -423,7 +423,7 @@
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #1a30ff;
 }
 
 #JavaScript {
@@ -436,7 +436,7 @@
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #1a30ff;
 }
 
 .actions {
@@ -458,7 +458,7 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  border: 1px solid #6070ff;
+  border: 1px solid #1a30ff;
   border-radius: 8px;
 }
 
@@ -471,7 +471,7 @@
   border-radius: nullpx;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #396df2;
+  color: #0e47d8;
   flex: none;
   order: 0;
   font-family: 'Poppins', sans-serif;
@@ -863,7 +863,7 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #6070ff;
+  color: #1a30ff;
 }
 
 .b-submit:hover::before {
@@ -970,6 +970,11 @@
     margin-bottom: 288px;
   }
 
+  .dsk-menu p:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+
   .My-logo {
     height: 40px;
     width: 100px;
@@ -982,6 +987,21 @@
     line-height: 20px;
     letter-spacing: 0;
     text-align: center;
+  }
+
+  .My-logo:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(1.5);
+    }
   }
 
   .hamburguer {
@@ -1035,11 +1055,23 @@
     text-align: start;
   }
 
+  #description:hover {
+    animation-name: scale;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    cursor: default;
+  }
+
   #connect {
     margin: 0;
     padding: 0;
     text-align: start;
     padding-bottom: 14px;
+  }
+
+  #connect:hover {
+    transform: scale(1.5);
   }
 
   .icons-secction {
@@ -1056,6 +1088,25 @@
 
   .screenshot-img {
     display: none;
+  }
+
+  .screen-shot {
+    height: 100%;
+    width: 100%;
+    left: 590px;
+    top: 24px;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-right: 22px;
+    margin-left: 22px;
+    box-sizing: content-box;
+  }
+
+  .screen-shot:hover {
+    animation-name: scale;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
   }
 
   .my-works {
@@ -1081,18 +1132,6 @@
     background-color: #fff;
   }
 
-  .screen-shot {
-    height: 100%;
-    width: 100%;
-    left: 590px;
-    top: 24px;
-    border-radius: 8px;
-    margin-top: 24px;
-    margin-right: 22px;
-    margin-left: 22px;
-    box-sizing: content-box;
-  }
-
   #tonic {
     height: 448px;
     width: 544px;
@@ -1115,6 +1154,18 @@
 
   #tags-list {
     padding: 0;
+  }
+
+  #h-tag:hover {
+    transform: scale(1.5);
+  }
+
+  #c-tag:hover {
+    transform: scale(1.5);
+  }
+
+  #j-tag:hover {
+    transform: scale(1.5);
   }
 
   #c-multi {
@@ -1166,6 +1217,10 @@
     margin-right: 8px;
   }
 
+  #r-tag:hover {
+    transform: scale(1.5);
+  }
+
   #ruby {
     background: #ebebff;
     border-radius: 8px;
@@ -1177,11 +1232,15 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #1a30ff;
   }
 
   .frame {
     padding: 0;
+  }
+
+  .txt:hover {
+    transform: scale(1.5);
   }
 
   #canopy::before {
@@ -1209,6 +1268,14 @@
     left: 24px;
     top: 146px;
     border-radius: nullpx;
+  }
+
+  #description-2:hover {
+    animation-name: scale;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    cursor: default;
   }
 
   #description-2::before {
@@ -1333,6 +1400,10 @@
     cursor: pointer;
   }
 
+  .NormalB:hover {
+    transform: scale(1.222);
+  }
+
   .About-My {
     width: 100%;
     height: 590px;
@@ -1397,6 +1468,10 @@
     padding: 0;
   }
 
+  .img-icons:hover {
+    transform: scale(1.5);
+  }
+
   .actions {
     padding: 0;
   }
@@ -1431,6 +1506,10 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+  }
+
+  .tx-languages:hover {
+    transform: scale(1.3);
   }
 
   .languages-menu {
@@ -1478,6 +1557,10 @@
     justify-content: center;
   }
 
+  .jmenu:hover {
+    transform: scale(1.4);
+  }
+
   .Form {
     height: 846px;
     width: 100%;
@@ -1520,8 +1603,28 @@
     padding: 0 116px 0 116px;
   }
 
+  .f-paragraph:hover {
+    animation-name: scale;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    cursor: default;
+  }
+
   .fields {
     justify-self: center;
     align-items: center;
+  }
+
+  #name-input:hover {
+    transform: scale(1.2);
+  }
+
+  #email-input:hover {
+    transform: scale(1.2);
+  }
+
+  .message-field:hover {
+    transform: scale(1.15);
   }
 }
