@@ -31,10 +31,10 @@ main {
   flex-wrap: wrap;
 }
 
-.modal__header{
-display: flex;
-flex-direction: column;
-padding-left: 24px; 
+.modal__header {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
 }
 
 .Carlos {
@@ -50,8 +50,6 @@ padding-left: 24px;
   display: flex;
   align-items: center;
   color: #172b4d;
-  padding-left: 24px;
-  padding-right: 24px;
   margin: 0;
   text-align: start;
 }
@@ -87,6 +85,7 @@ padding-left: 24px;
 .app-bar {
   height: 48px;
   width: 100%;
+  position: fixed;
   left: 0;
   top: 0;
   border-radius: 0;
@@ -99,26 +98,27 @@ padding-left: 24px;
 .My-logo {
   width: 76px;
   height: 20px;
+  line-height: 40px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  padding-left: 0.5%;
   color: #6070ff;
-  padding: 10px 12px 10px 12px;
 }
 
 .hamburguer {
   height: 24px;
+  line-height: 40px;
   width: 24px;
   left: 8px;
   top: 8px;
-  border-radius: 0;
-  padding-right: 35px;
-  padding-top: 20px;
+  border: none;
+  background-image: url(img/Enabled.png);
+  background-repeat: no-repeat;
 }
 
 .H-iamge {
-  height: 12px;
-  width: 18px;
+  size: cover;
   left: 3px;
   top: 6px;
   border-radius: 0;
@@ -167,6 +167,7 @@ padding-left: 24px;
   display: grid;
   grid-template-columns: auto;
   width: 327px;
+  position: static;
   gap: 12px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -892,7 +893,18 @@ padding-left: 24px;
   }
 
   .dsk-menu {
-    display: none;
+    width: 100%;
+    background: #6070ffa4;
+    mix-blend-mode: multiply;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: fixed;
+    margin: 0;
+    padding: 20px 0;
+    left: 0;
+    top: 0;
   }
 
   #r-tag {
@@ -906,7 +918,7 @@ padding-left: 24px;
 
 @media (min-width: 770px) {
   .portfolio {
-    width: 1440px;
+    width: 100%;
     background-color: #e5e5e5;
   }
 
@@ -915,7 +927,6 @@ padding-left: 24px;
     height: 72px;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 15px;
   }
 
   main {
@@ -946,6 +957,11 @@ padding-left: 24px;
   }
 
   .dsk-menu {
+    height: 72px;
+    width: 258px;
+    left: 1039px;
+    top: 16px;
+    border-radius: 0px;
     display: flex;
     list-style: none;
     margin: 0;
@@ -956,7 +972,6 @@ padding-left: 24px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px 12px;
     gap: 10px;
     width: 86px;
     height: 40px;
@@ -982,10 +997,9 @@ padding-left: 24px;
     left: 143px;
     top: 16px;
     border-radius: 0;
-    padding: 10px 12px 10px 12px;
     font-size: 18px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 60px;
     letter-spacing: 0;
     text-align: center;
   }
@@ -1017,6 +1031,7 @@ padding-left: 24px;
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
+    padding-left: 0;
   }
 
   .Carlos {
@@ -1060,7 +1075,7 @@ padding-left: 24px;
     animation-name: scale;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+    animation-delay: 1.5s;
     cursor: default;
   }
 
@@ -1094,12 +1109,8 @@ padding-left: 24px;
   .screen-shot {
     height: 100%;
     width: 100%;
-    left: 590px;
-    top: 24px;
     border-radius: 8px;
     margin-top: 24px;
-    margin-right: 22px;
-    margin-left: 22px;
     box-sizing: content-box;
   }
 
@@ -1107,7 +1118,7 @@ padding-left: 24px;
     animation-name: scale;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
   }
 
   .my-works {
@@ -1117,12 +1128,12 @@ padding-left: 24px;
     display: grid;
     grid-template-columns: auto;
     align-items: center;
+    overflow: hidden;
   }
 
   .Works {
     height: 496px;
     width: 100%;
-    left: 0;
     top: 0;
     border-radius: 24px;
     margin: 0;
@@ -1145,8 +1156,6 @@ padding-left: 24px;
 
   .text-block {
     width: min-content;
-    margin-left: 24px;
-    margin-right: 24px;
   }
 
   .tags {
@@ -1275,7 +1284,7 @@ padding-left: 24px;
     animation-name: scale;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+    animation-delay: 1.5s;
     cursor: default;
   }
 
@@ -1608,7 +1617,7 @@ padding-left: 24px;
     animation-name: scale;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+    animation-delay: 1.5s;
     cursor: default;
   }
 
