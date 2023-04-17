@@ -7,7 +7,7 @@
   width: 375px;
 }
 
-.main {
+main {
   width: 100%;
   height: 718px;
   left: 0;
@@ -24,13 +24,17 @@
   text-align: center;
   height: 718px;
   width: 100%;
-  left: -34px;
-  top: 103.9993896484375px;
   border-radius: 0;
   padding-top: 104px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.modal__header{
+display: flex;
+flex-direction: column;
+padding-left: 24px; 
 }
 
 .Carlos {
@@ -89,7 +93,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin: 0%;
+  background-color: #fff;
 }
 
 .My-logo {
@@ -141,7 +145,6 @@
   left: 24px;
   top: 470px;
   border-radius: 0;
-  padding-left: 19.01px;
   padding-top: 12px;
   display: flex;
   flex-direction: row;
@@ -883,7 +886,7 @@
   background-color: #737de4;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .portfolio {
     width: 100%;
   }
@@ -901,23 +904,21 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 770px) {
   .portfolio {
-    width: 100%;
+    width: 1440px;
     background-color: #e5e5e5;
   }
 
   .app-bar {
     width: 100%;
     height: 72px;
-    left: 0;
-    top: 0;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 15px;
   }
 
-  .main {
+  main {
     width: 100%;
     height: 916px;
     left: 0;
