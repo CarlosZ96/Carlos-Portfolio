@@ -7,7 +7,7 @@
   width: 375px;
 }
 
-.main {
+main {
   width: 100%;
   height: 718px;
   left: 0;
@@ -20,12 +20,9 @@
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 0;
-  justify-content: top;
   text-align: center;
   height: 718px;
   width: 100%;
-  left: -34px;
-  top: 103.9993896484375px;
   border-radius: 0;
   padding-top: 104px;
   display: flex;
@@ -33,12 +30,17 @@
   flex-wrap: wrap;
 }
 
+.modal__header {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
 .Carlos {
   height: 150px;
   width: 327px;
   left: 24px;
   top: 114px;
-  border-radius: nullpx;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -46,8 +48,6 @@
   display: flex;
   align-items: center;
   color: #172b4d;
-  padding-left: 24px;
-  padding-right: 24px;
   margin: 0;
   text-align: start;
 }
@@ -83,38 +83,44 @@
 .app-bar {
   height: 48px;
   width: 100%;
+  position: fixed;
   left: 0;
   top: 0;
   border-radius: 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin: 0%;
+  background-color: #fff;
 }
 
 .My-logo {
   width: 76px;
   height: 20px;
+  line-height: 40px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
-  padding: 10px 12px 10px 12px;
+  margin-left: 24px;
 }
 
 .hamburguer {
   height: 24px;
   width: 24px;
-  left: 8px;
-  top: 8px;
-  border-radius: 0;
-  padding-right: 35px;
-  padding-top: 20px;
+  left: 0;
+  top: 0;
+  border: none;
+  border-radius: 5px;
+  background-image: url(img/Enabled.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  padding: 0;
+  margin-top: 10px;
+  margin-right: 32px;
 }
 
 .H-iamge {
-  height: 12px;
-  width: 18px;
   left: 3px;
   top: 6px;
   border-radius: 0;
@@ -141,7 +147,6 @@
   left: 24px;
   top: 470px;
   border-radius: 0;
-  padding-left: 19.01px;
   padding-top: 12px;
   display: flex;
   flex-direction: row;
@@ -164,6 +169,7 @@
   display: grid;
   grid-template-columns: auto;
   width: 327px;
+  position: static;
   gap: 12px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -210,7 +216,6 @@
   left: 0;
   top: 0;
   font-family: 'Poppins', sans-serif;
-  border-radius: nullpx;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -237,7 +242,6 @@
   left: 0;
   top: 0;
   font-family: 'Poppins', sans-serif;
-  border-radius: nullpx;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -311,7 +315,6 @@
   width: 88px;
   left: 0;
   top: 8px;
-  border-radius: nullpx;
   padding: 8px 0 8px 0;
   font-size: 12px;
   font-weight: 400;
@@ -468,7 +471,6 @@
   width: 90px;
   left: 12px;
   top: 12px;
-  border-radius: nullpx;
   letter-spacing: 0.03em;
   text-align: center;
   color: #0e47d8;
@@ -501,7 +503,6 @@
   width: 90px;
   left: 12px;
   top: 12px;
-  border-radius: nullpx;
   letter-spacing: 0.03em;
   text-align: center;
   color: #396df2;
@@ -518,7 +519,6 @@
   width: 327px;
   left: 0;
   top: 0;
-  border-radius: nullpx;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -693,7 +693,6 @@
   width: 237px;
   left: 12px;
   top: 24px;
-  border-radius: nullpx;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -707,7 +706,6 @@
   width: 237px;
   left: 12px;
   top: 24px;
-  border-radius: nullpx;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -743,7 +741,7 @@
 .f-tittle {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
   text-align: center;
@@ -773,7 +771,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: left;
 }
 
 .Input {
@@ -883,13 +880,90 @@
   background-color: #737de4;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .portfolio {
     width: 100%;
   }
 
+  .app-bar {
+    background: none;
+  }
+
   .dsk-menu {
     display: none;
+  }
+
+  .mbl-menu {
+    width: 100%;
+    height: 100%;
+    background: rgba(96, 112, 255, 0.964);
+    mix-blend-mode: multiply;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: fixed;
+    margin: 0;
+    padding: 20px 0;
+    top: 0;
+    left: 100%;
+    transition: left 0.5s;
+  }
+
+  .mbl-menu p {
+    padding: 0;
+    margin-left: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0;
+  }
+
+  .m-menu-tag1,
+  .m-menu-tag2,
+  .m-menu-tag3 {
+    text-decoration: none;
+  }
+
+  .mbl-menu_visible {
+    left: 0;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
+  }
+
+  .mbl-menu_nvisible {
+    left: 100%;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .position {
+    color: brown;
+  }
+
+  #close {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+
+  #btn-close {
+    height: 14px;
+    width: 14px;
+    margin-right: 37px;
+    border: none;
+    background: none;
+  }
+
+  .img-close {
+    height: 14px;
+    width: 14px;
   }
 
   #r-tag {
@@ -901,23 +975,24 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 992px) {
   .portfolio {
     width: 100%;
     background-color: #e5e5e5;
   }
 
+  .mbl-menu {
+    display: none;
+  }
+
   .app-bar {
     width: 100%;
     height: 72px;
-    left: 0;
-    top: 0;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 15px;
   }
 
-  .main {
+  main {
     width: 100%;
     height: 916px;
     left: 0;
@@ -945,29 +1020,38 @@
   }
 
   .dsk-menu {
+    height: 72px;
+    width: 258px;
+    left: 1039px;
+    top: 16px;
+    border-radius: 0;
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
   }
 
+  #close {
+    display: none;
+  }
+
   .dsk-menu p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px 12px;
     gap: 10px;
     width: 86px;
     height: 40px;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 72px;
     letter-spacing: 0;
     text-align: center;
     color: #344563;
     margin: 0;
     margin-bottom: 288px;
+    margin-top: 10px;
   }
 
   .dsk-menu p:hover {
@@ -981,10 +1065,9 @@
     left: 143px;
     top: 16px;
     border-radius: 0;
-    padding: 10px 12px 10px 12px;
     font-size: 18px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 60px;
     letter-spacing: 0;
     text-align: center;
   }
@@ -1016,6 +1099,7 @@
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
+    padding-left: 0;
   }
 
   .Carlos {
@@ -1042,7 +1126,6 @@
     width: 920px;
     left: 0;
     top: 134px;
-    border-radius: nullpx;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1059,7 +1142,7 @@
     animation-name: scale;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+    animation-delay: 1.5s;
     cursor: default;
   }
 
@@ -1093,12 +1176,8 @@
   .screen-shot {
     height: 100%;
     width: 100%;
-    left: 590px;
-    top: 24px;
     border-radius: 8px;
     margin-top: 24px;
-    margin-right: 22px;
-    margin-left: 22px;
     box-sizing: content-box;
   }
 
@@ -1106,7 +1185,7 @@
     animation-name: scale;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
   }
 
   .my-works {
@@ -1116,12 +1195,12 @@
     display: grid;
     grid-template-columns: auto;
     align-items: center;
+    overflow: hidden;
   }
 
   .Works {
     height: 496px;
     width: 100%;
-    left: 0;
     top: 0;
     border-radius: 24px;
     margin: 0;
@@ -1144,8 +1223,6 @@
 
   .text-block {
     width: min-content;
-    margin-left: 24px;
-    margin-right: 24px;
   }
 
   .tags {
@@ -1267,19 +1344,17 @@
     width: 400px;
     left: 24px;
     top: 146px;
-    border-radius: nullpx;
   }
 
   #description-2:hover {
     animation-name: scale;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+    animation-delay: 1.5s;
     cursor: default;
   }
 
   #description-2::before {
-    border-radius: nullpx;
     padding: 0;
   }
 
@@ -1432,7 +1507,6 @@
     height: 102px;
     left: 0;
     top: 134px;
-    border-radius: nullpx;
     margin-bottom: 12px;
     font-size: 16px;
     font-weight: 400;
@@ -1446,7 +1520,6 @@
     width: 447px;
     left: 0;
     top: 0;
-    border-radius: nullpx;
     padding: 0;
     padding-bottom: 12px;
     font-size: 40px;
@@ -1520,7 +1593,7 @@
     border-radius: 0;
     padding: 12px;
     padding: 0;
-    margin: 1;
+    margin: 1px;
     flex-direction: column;
     justify-content: start;
   }
@@ -1586,7 +1659,6 @@
     width: 801px;
     left: 0;
     top: 0;
-    border-radius: nullpx;
     text-align: center;
     margin: 0;
     margin-bottom: 12px;
@@ -1597,7 +1669,6 @@
     width: 569px;
     left: 0;
     top: 0;
-    border-radius: nullpx;
     text-align: center;
     margin: 0;
     padding: 0 116px 0 116px;
@@ -1607,7 +1678,7 @@
     animation-name: scale;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+    animation-delay: 1.5s;
     cursor: default;
   }
 
