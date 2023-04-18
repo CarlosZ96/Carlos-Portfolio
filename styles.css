@@ -102,19 +102,24 @@ main {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  padding-left: 0.5%;
   color: #6070ff;
+  margin-left: 24px;
 }
 
 .hamburguer {
   height: 24px;
-  line-height: 40px;
   width: 24px;
-  left: 8px;
-  top: 8px;
+  left: 0;
+  top: 0;
   border: none;
+  border-radius: 5px;
   background-image: url(img/Enabled.png);
   background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  padding: 0;
+  margin-top: 10px;
+  margin-right: 32px;
 }
 
 .H-iamge {
@@ -892,9 +897,14 @@ main {
     width: 100%;
   }
 
+  .app-bar {
+    background: none;
+  }
+
   .dsk-menu {
     width: 100%;
-    background: #6070ffa4;
+    height: 100%;
+    background: rgba(96, 112, 255, 0.964);
     mix-blend-mode: multiply;
     list-style: none;
     display: flex;
@@ -903,8 +913,53 @@ main {
     position: fixed;
     margin: 0;
     padding: 20px 0;
-    left: 0;
     top: 0;
+    left: 100%;
+    transition: left 0.5s;
+  }
+
+  .dsk-menu p {
+    padding: 0;
+    margin-left: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0;
+  }
+
+  .dsk-menu_visible {
+    left: 0;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(30px);
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .position {
+    color: brown;
+  }
+
+  #close {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+
+  #btn-close {
+    height: 14px;
+    width: 14px;
+    margin-right: 37px;
+    border: none;
+    background: none;
+  }
+
+  .img-close {
+    height: 14px;
+    width: 14px;
   }
 
   #r-tag {
@@ -966,6 +1021,10 @@ main {
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+
+  #close {
+    display: none;
   }
 
   .dsk-menu p {

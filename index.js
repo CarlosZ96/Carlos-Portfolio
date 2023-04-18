@@ -1,6 +1,12 @@
-const navToggle = document.querySelector(".hamburguer")
-navToggle.addEventListener("click", visible)
+const ham = document.querySelector(".hamburguer")
+const img = document.querySelector(".img-close")
+const menu = document.querySelector(".dsk-menu")
 
-function visible(){
+ham.addEventListener("click", () => {
+    menu.classList.toggle("dsk-menu_visible");
 
-    }
+})
+img.addEventListener("click", () => {
+    menu.classList.toggle("dsk-menu_visible");
+})
+
