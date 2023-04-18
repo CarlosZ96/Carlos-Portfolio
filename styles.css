@@ -1016,7 +1016,7 @@ main {
     width: 258px;
     left: 1039px;
     top: 16px;
-    border-radius: 0px;
+    border-radius: 0;
     display: flex;
     list-style: none;
     margin: 0;
