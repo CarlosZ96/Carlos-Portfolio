@@ -880,7 +880,7 @@ main {
   background-color: #737de4;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 992px) {
   .portfolio {
     width: 100%;
   }
@@ -921,8 +921,20 @@ main {
     letter-spacing: 0;
   }
 
+  .m-menu-tag1,
+  .m-menu-tag2,
+  .m-menu-tag3 {
+    text-decoration: none;
+  }
+
   .mbl-menu_visible {
     left: 0;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
+  }
+
+  .mbl-menu_nvisible {
+    left: 100%;
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(10px);
   }
@@ -963,7 +975,7 @@ main {
   }
 }
 
-@media (min-width: 770px) {
+@media (min-width: 992px) {
   .portfolio {
     width: 100%;
     background-color: #e5e5e5;
