@@ -20,7 +20,6 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 0;
-  justify-content: top;
   text-align: center;
   height: 718px;
   width: 100%;
@@ -742,7 +741,7 @@ main {
 .f-tittle {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
   text-align: center;
@@ -759,7 +758,7 @@ main {
   top: 4802px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -772,7 +771,6 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: left;
 }
 
 .Input {
