@@ -268,7 +268,7 @@ main {
   top: 48px;
   border-radius: 0;
   display: flex;
-  padding-left: 12px;
+  padding-left: 0;
   flex-direction: row;
   list-style: none;
 }
@@ -361,7 +361,7 @@ main {
   flex-direction: row;
   list-style: none;
   text-align: left;
-  padding-left: 8px;
+  padding-left: 0;
 }
 
 .tag {
@@ -448,7 +448,7 @@ main {
   left: 0;
   top: 216px;
   border-radius: 0;
-  padding: 16px 16px 16px 12px;
+  margin-top: 24px;
 }
 
 .NormalB {
@@ -579,6 +579,7 @@ main {
   font-style: normal;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.03em;
+  margin-left: 24px;
 }
 
 .Normalbc::before {
@@ -1233,12 +1234,33 @@ main {
     padding: 0;
   }
 
+  #h-tag {
+    padding: 0;
+    height: 24px;
+    width: fit-content;
+    border-radius: 8px;
+  }
+
   #h-tag:hover {
     transform: scale(1.5);
   }
 
+  #c-tag {
+    padding: 0;
+    height: 24px;
+    width: fit-content;
+    border-radius: 8px;
+  }
+
   #c-tag:hover {
     transform: scale(1.5);
+  }
+
+  #j-tag {
+    padding: 0;
+    height: 24px;
+    width: fit-content;
+    border-radius: 8px;
   }
 
   #j-tag:hover {
@@ -1285,12 +1307,9 @@ main {
 
   #r-tag {
     height: 24px;
-    width: 107px;
-    left: 122px;
-    top: 0;
-    padding: 4px 12px 4px 12px;
-    background: #ebebff;
+    width: fit-content;
     border-radius: 8px;
+    background: #ebebff;
     margin-right: 8px;
   }
 
@@ -1341,7 +1360,7 @@ main {
 
   #description-2 {
     height: 70px;
-    width: 400px;
+    width: 100%;
     left: 24px;
     top: 146px;
   }
