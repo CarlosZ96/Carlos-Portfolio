@@ -168,16 +168,14 @@ main {
 .Works {
   display: grid;
   grid-template-columns: auto;
+  height: 552px;
   width: 327px;
-  position: static;
   gap: 12px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin: 0;
   background-color: #fff;
-  padding-top: 16px;
-  padding-right: 16px;
-  padding-left: 16px;
+  padding: 8px 8px 28px 8px;
 }
 
 .About-My {
@@ -202,91 +200,67 @@ main {
 }
 
 .screenshot-img {
-  height: 100%;
+  height: 260px;
   width: 100%;
   left: 16px;
   top: 16px;
   border-radius: 8px;
 }
 
-#c-tonic .project-tittle::before {
-  content: "Tonic";
-  height: 36px;
-  width: 295px;
-  left: 0;
-  top: 0;
+.project-tittle {
+  margin: 12px 0;
   font-family: 'Poppins', sans-serif;
-  font-size: 32px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #172b4d;
-}
-
-#c-multi .project-tittle::before {
-  content: "Multi-Post Stories";
-  font-family: 'Poppins', sans-serif;
   font-size: 32px;
-  font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #172b4d;
-}
-
-#c-uber .project-tittle::before {
-  content: "Multi-Post Stories";
-  height: 36px;
-  width: 295px;
-  left: 0;
-  top: 0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #172b4d;
-}
-
-#c-facebook .project-tittle::before {
-  content: "Tonic";
-  font-family: 'Poppins', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: left;
   color: #172b4d;
 }
 
 .frame {
-  height: 32px;
-  width: inherit;
+  height: 40px;
+  width: 297px;
   left: 0;
-  top: 48px;
+  top: 58px;
   border-radius: 0;
   display: flex;
   padding-left: 0;
   flex-direction: row;
   list-style: none;
+  margin: 0;
 }
 
-#canopy::before {
-  content: "CANOPY";
-  height: 32px;
-  width: 55px;
-  left: 0;
-  top: 0;
-  border-radius: 0;
-  padding: 8px 0 8px 0;
-  font-size: 13px;
+#role {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-weight: 600;
+  font-size: 15px;
   line-height: 16px;
-  letter-spacing: 0;
-  text-align: left;
+  color: #7a869a;
+  text-align: center;
+}
+
+#year {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #7a869a;
+  text-align: center;
+}
+
+#canopy {
+  font-family: 'Poppins', sans-serif;
+  width: 55px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
   color: #344563;
+  text-align: center;
 }
 
 #img-point {
@@ -309,46 +283,10 @@ main {
   padding-top: 2px;
 }
 
-#role::before {
-  content: "Back End Dev";
-  height: 16px;
-  width: 88px;
-  left: 0;
-  top: 8px;
-  padding: 8px 0 8px 0;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #7a869a;
-}
-
-#year::before {
-  content: "2015";
-  top: 8px;
-  font-size: 13px;
-  text-align: left;
-  color: #7a869a;
-  padding-right: 75px;
-  padding-left: 12px;
-  padding-top: 4px;
-}
-
 #description-2 {
   height: 76px;
   width: 295px;
   margin: 0;
-}
-
-#description-2::before {
-  content: "A daily selection of privately personalized reads; no accounts or sign-ups required.";
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
-  color: #344563;
-  text-align: start;
 }
 
 #tags-list {
@@ -366,7 +304,7 @@ main {
 
 .tag {
   text-decoration: none;
-  padding: 4px 12px 4px 12px;
+  color: #6070ff;
 }
 
 #h-tag {
@@ -378,9 +316,26 @@ main {
   padding: 4px 12px 4px 12px;
   background: #ebebff;
   margin-right: 8px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
 }
 
 #c-tag {
+  height: 24px;
+  width: max-content;
+  left: 65px;
+  top: 0;
+  padding: 4px 12px 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-right: 8px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
+}
+
+#j-tag {
   height: 24px;
   width: 49px;
   left: 65px;
@@ -388,17 +343,9 @@ main {
   padding: 4px 12px 4px 12px;
   background: #ebebff;
   border-radius: 8px;
-  margin-right: 8px;
-}
-
-#j-tag {
-  height: 24px;
-  width: 92px;
-  left: 122px;
-  top: 0;
-  padding: 4px 12px 4px 12px;
-  background: #ebebff;
-  border-radius: 8px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
 }
 
 #html {
@@ -442,7 +389,7 @@ main {
   color: #1a30ff;
 }
 
-.actions {
+*/ .actions {
   height: 72px;
   width: 295px;
   left: 0;
@@ -580,6 +527,7 @@ main {
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.03em;
   margin-left: 24px;
+  margin-top: 8px;
 }
 
 .Normalbc::before {
@@ -1170,23 +1118,12 @@ main {
     padding: 0;
   }
 
-  .screenshot-img {
-    display: none;
-  }
-
   .screen-shot {
-    height: 100%;
-    width: 100%;
+    height: 448px;
+    width: 544px;
+    left: 24px;
+    top: 24px;
     border-radius: 8px;
-    margin-top: 24px;
-    box-sizing: content-box;
-  }
-
-  .screen-shot:hover {
-    animation-name: scale;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
-    animation-delay: 1.5s;
   }
 
   .my-works {
@@ -1200,16 +1137,28 @@ main {
   }
 
   .Works {
-    height: 496px;
-    width: 100%;
+    height: 500px;
+    width: 1156px;
+    left: 0;
     top: 0;
     border-radius: 24px;
     margin: 0;
     padding: 0;
-    margin-bottom: 142px;
+    padding-top: 12px;
+    padding-left: 12px;
     display: flex;
     flex-direction: row;
     background-color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .screenshot-img{
+    height: 448px;
+    width: 544px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;    
   }
 
   #tonic {
@@ -1218,12 +1167,17 @@ main {
     left: 24px;
     top: 24px;
     border-radius: 8px;
-    background-image: url(img/tonic.png);
+    background-image: url(img/Snapshoot4.png);
     background-size: cover;
   }
 
   .text-block {
-    width: min-content;
+    height: 445px;
+    width: 544px;
+    left: 590px;
+    top: 24px;
+    border-radius: 0;
+    padding: 24px;
   }
 
   .tags {
@@ -1235,8 +1189,12 @@ main {
   }
 
   #h-tag {
-    padding: 0;
     height: 24px;
+    width: 105px;
+    left: 61px;
+    top: 0;
+    border-radius: 8px;
+    padding: 4px 12px 4px 12px;
     width: fit-content;
     border-radius: 8px;
   }
@@ -1248,8 +1206,9 @@ main {
   #c-tag {
     padding: 0;
     height: 24px;
-    width: fit-content;
+    width: max-content;
     border-radius: 8px;
+    padding: 4px 12px;
   }
 
   #c-tag:hover {
@@ -1257,8 +1216,12 @@ main {
   }
 
   #j-tag {
-    padding: 0;
     height: 24px;
+    width: 105px;
+    left: 61px;
+    top: 0;
+    border-radius: 8px;
+    padding: 4px 12px 4px 12px;
     width: fit-content;
     border-radius: 8px;
   }
@@ -1307,7 +1270,7 @@ main {
 
   #r-tag {
     height: 24px;
-    width: fit-content;
+    width: max-content;
     border-radius: 8px;
     background: #ebebff;
     margin-right: 8px;
@@ -1335,6 +1298,39 @@ main {
     padding: 0;
   }
 
+  .project-tittle {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  
+  #role {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+  }
+  
+  #year {
+
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  
+  #canopy {
+    font-family: 'Poppins', sans-serif;
+    width: 75px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    color: #344563;
+    text-align: center;
+  }
+  
+
   .txt:hover {
     transform: scale(1.5);
   }
@@ -1345,17 +1341,6 @@ main {
     line-height: 24px;
     letter-spacing: 0;
     text-align: left;
-  }
-
-  #c-multi #canopy::before {
-    content: "FACEBOOK";
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #344563;
   }
 
   #description-2 {
@@ -1377,10 +1362,6 @@ main {
     padding: 0;
   }
 
-  #c-multi #description-2::before {
-    content: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.";
-  }
-
   #role::before {
     font-size: 18px;
     font-weight: 400;
@@ -1389,103 +1370,12 @@ main {
     text-align: left;
   }
 
-  #year::before {
+  #year {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0;
     text-align: left;
-  }
-
-  #c-multi #role::before {
-    content: "Full Stack Dev";
-  }
-
-  .project-tittle {
-    margin: 0;
-    padding-top: 48px;
-  }
-
-  #c-tonic .project-tittle::before {
-    content: "Tonic";
-    height: 36px;
-    width: 295px;
-    left: 0;
-    top: 0;
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #172b4d;
-  }
-
-  #c-facebook .project-tittle::before {
-    content: "Facebook 360";
-    width: 496px;
-    height: 46px;
-    left: 0;
-    top: 0;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    text-align: left;
-    color: #091e42;
-  }
-
-  #c-facebook #role::before {
-    content: "Full Stack Dev";
-  }
-
-  #c-multi .project-tittle::before {
-    content: "Multi-Post Stories";
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 0;
-    text-align: left;
-    color: #172b4d;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-  }
-
-  #c-uber .project-tittle::before {
-    content: "Uber Navigation";
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 0;
-    text-align: left;
-    color: #172b4d;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-  }
-
-  #c-uber #role::before {
-    content: "Lead Developer";
-  }
-
-  #c-uber #canopy::before {
-    content: "Uber";
-  }
-
-  #c-uber #year::before {
-    content: "2018";
-  }
-
-  #c-facebook #canopy::before {
-    content: "FACEBOOK";
-  }
-
-  #c-facebook #description-2::before {
-    content: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.";
-  }
-
-  #c-uber #description-2::before {
-    content: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.";
   }
 
   .NormalB {
@@ -1623,6 +1513,10 @@ main {
     display: flex;
     flex-direction: row;
     padding: 12px 12px 0 12px;
+  }
+
+  .Normalbc {
+    margin-left: 0;
   }
 
   .jmenu-txt {
