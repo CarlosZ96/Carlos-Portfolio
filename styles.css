@@ -177,40 +177,114 @@ main {
   padding: 8px 8px 28px 8px;
 }
 
+#img-point {
+  height: 8px;
+  width: 8px;
+  left: 67px;
+  top: 12px;
+  border-radius: 0;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#img-point-2 {
+  height: 8px;
+  width: 8px;
+  left: 187px;
+  top: 12px;
+  border-radius: 0;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+#btn-close2 {
+  top: 24px;
+  background: none;
+  border: none;
+}
+
+.top-p{
+display: flex;
+justify-content: space-between;  
+}
+
 .details {
   position: fixed;
+  display: flex;
+  flex-direction: column;
   left: 0;
   top: 0;
   width: 343px;
-  height: 713px;
+  height: 90%;
+  left: calc(50% - 343px/2);
+  top: 10px;
   padding: 16px;
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
-.details #canopy::before{
-content: "CANOPY";
+.show{
+  left: calc(50% - 343px/2);
 }
 
-.details #role::before{
-  content: "CANOPY";  
+.details .project-tittle {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0;
 }
 
-.details #year::before{
+.details .frame {
+  margin: 0;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details .img-container {
+  width: 20px;
+}
+
+.details #img-point {
+  width: max-content;
+  height: max-content;
+  padding: 0;
+}
+
+.details .project-tittle::before {
+  content: "Tonic";
+}
+
+.details #canopy::before {
   content: "CANOPY";
+  margin-right: 6px;
 }
 
-#btn-close2 {
-  position: fixed;
-  top: 24px;
-  left: 35%;
+.details #role::before {
+  content: "Back End Dev";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.details #year::before {
+  content: "2015";
+  font-weight: 600;
+  font-size: 13px;
+  padding: 0;
+}
+
+.details .txt {
+  padding: 0;
 }
 
 .details #description-2 {
-  width: 311px;
-  height: 220px;
-  font-family: 'Poppins';
+  width: 100%;
+  height: max-content;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -223,11 +297,12 @@ content: "CANOPY";
 }
 
 .screen-shotp {
-  width: 311px;
-  height: 220px;
+  width: 100%;
+  height: 320px;
   border-radius: 8px;
-  background-image: url(img/Snapshoot1.png);
+  background-image: url(img/details.png);
   background-size: cover;
+  background-position: center;
 }
 
 .details #h-tag {
@@ -262,23 +337,41 @@ content: "CANOPY";
   height: 48px;
   width: 136px;
   padding: 0;
+  margin-top: 35px;
+  margin-left: 5px;
+  margin-right: 7px;
 }
 
 .details .NormalB::before {
   border-radius: 8px;
   content: "See live";
   color: #396df2;
+  padding: 0;
+  margin: 0;
+  width: 60px;
+  height: max-content;
   padding-left: 22px;
 }
 
 .details #NormalB2::before {
   content: "See source";
   color: #396df2;
-  padding-left: 22px;
+  width: max-content;
+  height: max-content;
+  line-height: 48px;
+  left: 0;
+  padding-left: 8px;
 }
 
 .details #sbutton {
-  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.live-img {
+  width: 18px;
+  height: 18px;
+  top: 3px;
 }
 
 .About-My {
@@ -364,26 +457,6 @@ content: "CANOPY";
   line-height: 16px;
   color: #344563;
   text-align: center;
-}
-
-#img-point {
-  height: 8px;
-  width: 8px;
-  left: 67px;
-  top: 12px;
-  border-radius: 0;
-  padding-left: 12px;
-  padding-right: 12px;
-}
-
-#img-point-2 {
-  height: 8px;
-  width: 8px;
-  left: 187px;
-  top: 12px;
-  border-radius: 0;
-  padding-left: 10px;
-  padding-top: 2px;
 }
 
 #description-2 {

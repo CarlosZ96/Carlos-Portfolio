@@ -66,7 +66,7 @@ for (let i = 0; i < workse.length; i++) {
       </ul>
     </div>
     <div>
-      <p tabi="53" id="description-2">${workse[i].description}</p>
+      <p id="description-2">${workse[i].description}</p>
     </div>
     <div class="tags">
       <ul id="tags-list">
@@ -87,13 +87,15 @@ Mworks.append(popup);
 popup.className = 'details';
 popup.innerHTML = `
 <header class="header-4">
-<h2 class="project-tittle">test</h2>
+<div class="top-p">
+<h2 class="project-tittle"></h2>
 <button id="btn-close2" alt="close menu"><img src="img/cros.png" class="img-close2"></button>
+</div>
 <ul class="frame">
   <li class="txt" id="canopy"></li>
   <li class="img-container"><img src="img/Counter.png" alt="point" id="img-point"></li>
   <li class="txt" id="role"></li>
-  <li class="img-container"><img src="img/Counter.png" alt="point" id="img-point-2"></li>
+  <li class="img-container"><img src="img/Counter.png" alt="point" id="img-point"></li>
   <li class="txt" id="year"></li>
 </ul>
 </header>
@@ -111,10 +113,12 @@ popup.innerHTML = `
 </ul>
 <div class="sbtn">
 <button class="NormalB">
-  <p id="sbutton"></p>
+<img src="img/live.png" alt="live-icon" class="live-img">
+<p id="sbutton"></p>
 </button>
 <button  class="NormalB" id="NormalB2">
-  <p id="sbutton"></p>
+<img src="img/git.png" alt="live-icon" class="live-img">
+<p id="sbutton"></p>
 </button>
 </div>
 </div>`
