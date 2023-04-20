@@ -84,10 +84,11 @@ for (let i = 0; i < workse.length; i++) {
 }
 var popup = document.createElement('div');
 Mworks.append(popup);
-section.className = 'details';
-section.innerHTML = `
+popup.className = 'details';
+popup.innerHTML = `
 <header class="header-4">
 <h2 class="project-tittle">test</h2>
+<button id="btn-close2" alt="close menu"><img src="img/cros.png" class="img-close2"></button>
 <ul class="frame">
   <li class="txt" id="canopy"></li>
   <li class="img-container"><img src="img/Counter.png" alt="point" id="img-point"></li>
@@ -96,7 +97,7 @@ section.innerHTML = `
   <li class="txt" id="year"></li>
 </ul>
 </header>
-<div class="screen-shot"></div>
+<div class="screen-shotp"></div>
 <div>
 <p id="description-2"></p>
 </div>
@@ -108,7 +109,12 @@ section.innerHTML = `
   <li  id="j-tag"><a href="#" class="tag" id="JavaScript">JavaScript</a></li>
   <li  id="b-tag"><a href="#" class="tag" id="JavaScript">Bootstrap</a></li>
 </ul>
-<button tabindex="58" class="NormalB">
+<div class="sbtn">
+<button class="NormalB">
   <p id="sbutton"></p>
 </button>
+<button  class="NormalB" id="NormalB2">
+  <p id="sbutton"></p>
+</button>
+</div>
 </div>`

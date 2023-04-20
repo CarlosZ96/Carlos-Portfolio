@@ -162,7 +162,6 @@ main {
   left: 0;
   top: 718px;
   background-color: #e5e5e5;
-  padding-bottom: 144px;
 }
 
 .Works {
@@ -176,6 +175,110 @@ main {
   margin: 0;
   background-color: #fff;
   padding: 8px 8px 28px 8px;
+}
+
+.details {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 343px;
+  height: 713px;
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.details #canopy::before{
+content: "CANOPY";
+}
+
+.details #role::before{
+  content: "CANOPY";  
+}
+
+.details #year::before{
+  content: "CANOPY";
+}
+
+#btn-close2 {
+  position: fixed;
+  top: 24px;
+  left: 35%;
+}
+
+.details #description-2 {
+  width: 311px;
+  height: 220px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.details #description-2::before {
+  content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent"
+}
+
+.screen-shotp {
+  width: 311px;
+  height: 220px;
+  border-radius: 8px;
+  background-image: url(img/Snapshoot1.png);
+  background-size: cover;
+}
+
+.details #h-tag {
+  height: 24px;
+  width: max-content;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+}
+
+.details #j-tag {
+  height: 24px;
+  width: max-content;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  margin-right: 6px;
+}
+
+.details #r-tag,
+#b-tag {
+  display: none;
+}
+
+.sbtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details .NormalB {
+  height: 48px;
+  width: 136px;
+  padding: 0;
+}
+
+.details .NormalB::before {
+  border-radius: 8px;
+  content: "See live";
+  color: #396df2;
+  padding-left: 22px;
+}
+
+.details #NormalB2::before {
+  content: "See source";
+  color: #396df2;
+  padding-left: 22px;
+}
+
+.details #sbutton {
+  text-align: center;
 }
 
 .About-My {
@@ -335,7 +438,8 @@ main {
   color: #6070ff;
 }
 
-#j-tag {
+#j-tag,
+#b-tag {
   height: 24px;
   width: 49px;
   left: 65px;
@@ -911,8 +1015,11 @@ main {
   }
 
   .img-close {
-    height: 14px;
-    width: 14px;
+    height: 12px;
+    width: 12px;
+    left: 6px;
+    top: 6px;
+    border-radius: 0px;
   }
 
   #r-tag {
@@ -1153,12 +1260,12 @@ main {
     justify-content: center;
   }
 
-  .screenshot-img{
+  .screenshot-img {
     height: 448px;
     width: 544px;
     left: 24px;
     top: 24px;
-    border-radius: 8px;    
+    border-radius: 8px;
   }
 
   #tonic {
@@ -1303,13 +1410,13 @@ main {
     font-size: 40px;
     line-height: 52px;
   }
-  
+
   #role {
     font-weight: 600;
     font-size: 15px;
     line-height: 16px;
   }
-  
+
   #year {
 
     padding-left: 10px;
@@ -1317,7 +1424,7 @@ main {
     font-size: 16px;
     line-height: 16px;
   }
-  
+
   #canopy {
     font-family: 'Poppins', sans-serif;
     width: 75px;
@@ -1329,7 +1436,7 @@ main {
     color: #344563;
     text-align: center;
   }
-  
+
 
   .txt:hover {
     transform: scale(1.5);
