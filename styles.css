@@ -197,7 +197,7 @@ main {
   padding-top: 2px;
 }
 
-#btn-close2 {
+.btn-close2 {
   top: 24px;
   background: none;
   border: none;
@@ -819,6 +819,195 @@ main {
   background-color: #737de4;
 }
 
+#popup-c {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background-color: #ccced158;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 80%;
+  height: auto;
+  top: 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin: 114px auto;
+}
+
+.show {
+  left: 100%;
+}
+
+.details .project-tittle {
+  height: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0;
+}
+
+.details .frame {
+  margin: 0;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details .img-container {
+  width: 20px;
+}
+
+.details #img-point {
+  width: max-content;
+  height: max-content;
+  padding: 0;
+}
+
+.details .project-tittle::before {
+  content: "Tonic";
+}
+
+.details #canopy::before {
+  content: "CANOPY";
+  margin-right: 6px;
+}
+
+.details #role::before {
+  content: "Back End Dev";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.details #year::before {
+  content: "2015";
+  font-weight: 600;
+  font-size: 13px;
+  padding: 0;
+}
+
+.details .txt {
+  padding: 0;
+}
+
+.descriptionm,
+.descriptiondsk {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.screen-shotp {
+  width: 100%;
+  height: 289px;
+  border-radius: 8px;
+  background-image: url(img/details.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.details #tags-list {
+  margin: 16px;
+  margin-left: 0;
+}
+
+.details #h-tag {
+  height: 24px;
+  width: max-content;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+}
+
+.details #j-tag {
+  height: 24px;
+  width: max-content;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  margin-right: 6px;
+}
+
+.sbtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gitB,
+.LiveB {
+  height: 48px;
+  width: 136px;
+  padding: 0;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-right: 7px;
+  display: flex;
+  align-items: center;
+  width: 136px;
+  border: 1px solid #6070FF;
+  border-radius: 8px;
+}
+
+.LiveB::before {
+  border-radius: 8px;
+  content: "See live";
+  color: #396df2;
+  padding: 0;
+  margin: 0;
+  width: 60px;
+  padding-left: 22px;
+  padding-right: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.gitB::before {
+  content: "See source";
+  color: #396df2;
+  width: max-content;
+  height: max-content;
+  line-height: 48px;
+  left: 0;
+  padding-left: 8px;
+  padding-right: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.live-img {
+  width: 18px;
+  height: 18px;
+  top: 3px;
+}
+
 @media (max-width: 992px) {
   .portfolio {
     width: 100%;
@@ -921,201 +1110,12 @@ main {
     justify-content: space-between;
   }
 
-  #popup-c {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(5px);
-    overflow-y: scroll;
-    overflow-x: hidden;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    background-color: #ccced158;
-  }
-
-  .details {
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    width: 80%;
-    height: auto;
-    top: 0;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-    margin: 114px auto;
-  }
-
-  .show {
-    left: 100%;
-  }
-
-  .details .project-tittle {
-    height: 35px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    margin: 0;
-  }
-
-  .details .frame {
-    margin: 0;
-    width: 300px;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .details .img-container {
-    width: 20px;
-  }
-
-  .details #img-point {
-    width: max-content;
-    height: max-content;
-    padding: 0;
-  }
-
-  .details .project-tittle::before {
-    content: "Tonic";
-  }
-
-  .details #canopy::before {
-    content: "CANOPY";
-    margin-right: 6px;
-  }
-
-  .details #role::before {
-    content: "Back End Dev";
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-  }
-
-  .details #year::before {
-    content: "2015";
-    font-weight: 600;
-    font-size: 13px;
-    padding: 0;
-  }
-
-  .details .txt {
-    padding: 0;
-  }
-
-  .details #description-2 {
-    width: 100%;
-    height: 100%;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #344563;
-  }
-
-  .details #description-2::before {
-    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent"
-  }
-
-  .screen-shotp {
-    width: 100%;
-    height: 289px;
-    border-radius: 8px;
-    background-image: url(img/details.png);
-    background-size: cover;
-    background-position: center;
-  }
-
-  .details #tags-list {
-    margin: 16px;
-    margin-left: 0;
-  }
-
-  .details #h-tag {
-    height: 24px;
-    width: max-content;
-    left: 0px;
-    top: 0px;
-    border-radius: 8px;
-    padding: 4px 12px 4px 12px;
-  }
-
-  .details #j-tag {
-    height: 24px;
-    width: max-content;
-    left: 0px;
-    top: 0px;
-    border-radius: 8px;
-    margin-right: 6px;
-  }
-
-  .details #r-tag,
-  #b-tag {
+  #tags-list2 {
     display: none;
   }
 
-  .sbtn {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .gitB,
-  .LiveB {
-    height: 48px;
-    width: 136px;
-    padding: 0;
-    margin-top: 25px;
-    margin-left: 5px;
-    margin-right: 7px;
-    display: flex;
-    align-items: center;
-    width: 136px;
-    border: 1px solid #6070FF;
-    border-radius: 8px;
-  }
-
-  .LiveB::before {
-    border-radius: 8px;
-    content: "See live";
-    color: #396df2;
-    padding: 0;
-    margin: 0;
-    width: 60px;
-    padding-left: 22px;
-    padding-right: 14px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  .gitB::before {
-    content: "See source";
-    color: #396df2;
-    width: max-content;
-    height: max-content;
-    line-height: 48px;
-    left: 0;
-    padding-left: 8px;
-    padding-right: 13px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  .live-img {
-    width: 18px;
-    height: 18px;
-    top: 3px;
+  .descriptiondsk {
+    display: none;
   }
 
 }
@@ -1807,4 +1807,107 @@ main {
   .message-field:hover {
     transform: scale(1.15);
   }
+
+  .top-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #popup-c {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: #ccced158;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 80%;
+    height: auto;
+    top: 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin: 77px auto;
+  }
+
+  .details #role {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .details #year {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .header-4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .body-2 {
+    display: flex;
+  }
+
+  .buttons {
+    height: 157px;
+    width: 306px;
+    left: 826px;
+    top: 781px;
+    border-radius: 0px;
+  }
+
+  #ruby {
+    width: max-content;
+  }
+
+  #tags-list2 {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  #b-tag,
+  #r-tag {
+    align-items: center;
+    padding: 4px 12px;
+    width: max-content;
+    height: 24px;
+  }
+
+  .descriptiondsk {
+    width: 700px;
+    height: 271px;
+    text-align: start;
+  }
+
+  .descriptionm {
+    display: none;
+  }
+
+  .screen-shotp {
+    width: 1108px;
+    height: 586px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    background-image: url(img/popup.png);
+  }
+
 }
