@@ -112,7 +112,8 @@ You can deploy this project using visual code or github itself on Settings > pag
 
 - GitHub: [@githubhandle](https://github.com/CarlosZ96)
 - Twitter: [@twitterhandle](https://twitter.com/ELZambrano2)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/carlos-zambrano-845406173)
+- LinkedIn: [@linkedinhandle](https://www.linkedin.com/in/carlos-zambrano-845406173/)
+- LinkedIn: [@linkedinhandle](https://www.linkedin.com/in/sylvester-wamaya-b11a93112/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
