@@ -150,4 +150,3 @@ cls.addEventListener('click', () => {
 });
 see.addEventListener('click', showi);
 LiveB.addEventListener('click', showi);
-
