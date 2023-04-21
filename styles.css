@@ -935,8 +935,8 @@ main {
 .details #h-tag {
   height: 24px;
   width: max-content;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   border-radius: 8px;
   padding: 4px 12px 4px 12px;
 }
@@ -944,8 +944,8 @@ main {
 .details #j-tag {
   height: 24px;
   width: max-content;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   border-radius: 8px;
   margin-right: 6px;
 }
@@ -958,7 +958,6 @@ main {
 .gitB,
 .LiveB {
   height: 48px;
-  width: 136px;
   padding: 0;
   margin-top: 25px;
   margin-left: 5px;
@@ -966,7 +965,7 @@ main {
   display: flex;
   align-items: center;
   width: 136px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
 }
 
@@ -991,7 +990,6 @@ main {
   color: #396df2;
   width: max-content;
   height: max-content;
-  line-height: 48px;
   left: 0;
   padding-left: 8px;
   padding-right: 13px;
@@ -1094,7 +1092,7 @@ main {
     width: 12px;
     left: 6px;
     top: 6px;
-    border-radius: 0px;
+    border-radius: 0;
   }
 
   #r-tag {
@@ -1386,10 +1384,8 @@ main {
 
   #h-tag {
     height: 24px;
-    width: 105px;
     left: 61px;
     top: 0;
-    border-radius: 8px;
     padding: 4px 12px 4px 12px;
     width: fit-content;
     border-radius: 8px;
@@ -1400,7 +1396,6 @@ main {
   }
 
   #c-tag {
-    padding: 0;
     height: 24px;
     width: max-content;
     border-radius: 8px;
@@ -1416,7 +1411,6 @@ main {
     width: 105px;
     left: 61px;
     top: 0;
-    border-radius: 8px;
     padding: 4px 12px 4px 12px;
     width: fit-content;
     border-radius: 8px;
@@ -1479,7 +1473,7 @@ main {
   #ruby {
     background: #ebebff;
     border-radius: 8px;
-    width: 68px;
+    width: max-content;
     height: 16px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1506,14 +1500,6 @@ main {
     line-height: 16px;
   }
 
-  #year {
-
-    padding-left: 10px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 16px;
-  }
-
   #canopy {
     font-family: 'Poppins', sans-serif;
     width: 75px;
@@ -1525,7 +1511,6 @@ main {
     color: #344563;
     text-align: center;
   }
-
 
   .txt:hover {
     transform: scale(1.5);
@@ -1869,11 +1854,7 @@ main {
     width: 306px;
     left: 826px;
     top: 781px;
-    border-radius: 0px;
-  }
-
-  #ruby {
-    width: max-content;
+    border-radius: 0;
   }
 
   #tags-list2 {
@@ -1902,12 +1883,14 @@ main {
   }
 
   .screen-shotp {
-    width: 1108px;
+    width: 100%;
     height: 586px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: 8px;
     background-image: url(img/popup.png);
+    background-size: cover;
+    background-position: center;
   }
 
 }
