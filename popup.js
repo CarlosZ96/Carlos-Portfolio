@@ -77,7 +77,7 @@ for (let i = 0; i < workse.length; i += 1) {
       </ul>
     </div>
     <div class="actions">
-      <button class="NormalB${(i+1)}">
+      <button class="NormalB${(i + 1)}">
       </button>
     </div>
     </div>`;

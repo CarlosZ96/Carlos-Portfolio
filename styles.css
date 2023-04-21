@@ -403,6 +403,7 @@ main {
   border-radius: 0;
   margin-top: 24px;
 }
+
 .NormalB1,
 .NormalB2,
 .NormalB3,
@@ -420,6 +421,7 @@ main {
   border: 1px solid #1a30ff;
   border-radius: 8px;
 }
+
 .NormalB1::before,
 .NormalB2::before,
 .NormalB3::before,
@@ -448,6 +450,7 @@ main {
 .NormalB:hover::before {
   color: #fff;
 }
+
 .NormalB1:active::before,
 .NormalB2:active::before,
 .NormalB3:active::before,
@@ -455,6 +458,7 @@ main {
 .NormalB:active::before {
   color: #fff;
 }
+
 .NormalB1:hover,
 .NormalB2:hover,
 .NormalB3:hover,
