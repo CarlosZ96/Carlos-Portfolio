@@ -124,18 +124,23 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     <li id="b-tag"><a href="#" class="tag" id="ruby">Bootstrap</a></li>
   </ul>
   <div class="sbtn">
+  <a href="#">    
     <button class="LiveB">
-      <img src="img/live.png" alt="live-icon" class="live-img">
-      <p id="sbutton"></p>
+    <img src="img/live.png" alt="live-icon" class="live-img">
+    <p id="sbutton"></p>
     </button>
+  <a/>
+  <a href="#"> 
     <button class="gitB">
-      <img src="img/git.png" alt="github-icon" class="live-img">
-    </button>
+    <img src="img/git.png" alt="github-icon" class="live-img">
+    </button> 
+  <a/>
   </div>
 </div>
 </div>`;
 const see = document.querySelector('.NormalB');
 const cls = document.querySelector('.img-close2');
+const LiveB = document.querySelector('.LiveB');
 
 function showi() {
   detailsc.classList.remove('show');
@@ -144,3 +149,5 @@ cls.addEventListener('click', () => {
   detailsc.classList.add('show');
 });
 see.addEventListener('click', showi);
+LiveB.addEventListener('click', showi);
+
