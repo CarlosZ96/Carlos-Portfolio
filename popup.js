@@ -1,5 +1,5 @@
-const Mworks = document.getElementById("mwks");
-const detailsc = document.getElementById("popup-c");
+const Mworks = document.getElementById('mwks');
+const detailsc = document.getElementById('popup-c');
 const workse = [
   {
     project_tittle: 'Tonic',
@@ -45,8 +45,8 @@ const workse = [
   },
 ];
 
-for (let i = 0; i < workse.length; i++) {
-  var section = document.createElement('section');
+for (let i = 0; i < workse.length; i += 1) {
+  let section = document.createElement('section');
   Mworks.append(section);
   section.className = 'Works';
   section.innerHTML = `
@@ -80,9 +80,9 @@ for (let i = 0; i < workse.length; i++) {
       <button class="NormalB">
       </button>
     </div>
-    </div>`
+    </div>`;
 }
-var popup = document.createElement('div');
+let popup = document.createElement('div');
 detailsc.append(popup);
 popup.className = 'details';
 popup.innerHTML = `
@@ -133,7 +133,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     </button>
   </div>
 </div>
-</div>`
+</div>`;
 const see = document.querySelector('.NormalB');
 const cls = document.querySelector('.img-close2');
 
@@ -143,4 +143,4 @@ function showi() {
 cls.addEventListener('click', () => {
   detailsc.classList.add('show');
 });
-see.addEventListener('click',showi);
+see.addEventListener('click', showi);
