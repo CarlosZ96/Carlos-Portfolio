@@ -162,22 +162,45 @@ main {
   left: 0;
   top: 718px;
   background-color: #e5e5e5;
-  padding-bottom: 144px;
 }
 
 .Works {
   display: grid;
   grid-template-columns: auto;
+  height: 552px;
   width: 327px;
-  position: static;
   gap: 12px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin: 0;
   background-color: #fff;
-  padding-top: 16px;
-  padding-right: 16px;
-  padding-left: 16px;
+  padding: 8px 8px 28px 8px;
+}
+
+#img-point {
+  height: 8px;
+  width: 8px;
+  left: 67px;
+  top: 12px;
+  border-radius: 0;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#img-point-2 {
+  height: 8px;
+  width: 8px;
+  left: 187px;
+  top: 12px;
+  border-radius: 0;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+.btn-close2 {
+  top: 24px;
+  background: none;
+  border: none;
 }
 
 .About-My {
@@ -202,153 +225,73 @@ main {
 }
 
 .screenshot-img {
-  height: 100%;
+  height: 260px;
   width: 100%;
   left: 16px;
   top: 16px;
   border-radius: 8px;
 }
 
-#c-tonic .project-tittle::before {
-  content: "Tonic";
-  height: 36px;
-  width: 295px;
-  left: 0;
-  top: 0;
+.project-tittle {
+  margin: 12px 0;
   font-family: 'Poppins', sans-serif;
-  font-size: 32px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #172b4d;
-}
-
-#c-multi .project-tittle::before {
-  content: "Multi-Post Stories";
-  font-family: 'Poppins', sans-serif;
   font-size: 32px;
-  font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #172b4d;
-}
-
-#c-uber .project-tittle::before {
-  content: "Multi-Post Stories";
-  height: 36px;
-  width: 295px;
-  left: 0;
-  top: 0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #172b4d;
-}
-
-#c-facebook .project-tittle::before {
-  content: "Tonic";
-  font-family: 'Poppins', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: left;
   color: #172b4d;
 }
 
 .frame {
-  height: 32px;
-  width: inherit;
+  height: 40px;
+  width: 297px;
   left: 0;
-  top: 48px;
+  top: 58px;
   border-radius: 0;
   display: flex;
-  padding-left: 12px;
+  padding-left: 0;
   flex-direction: row;
   list-style: none;
+  margin: 0;
 }
 
-#canopy::before {
-  content: "CANOPY";
-  height: 32px;
-  width: 55px;
-  left: 0;
-  top: 0;
-  border-radius: 0;
-  padding: 8px 0 8px 0;
-  font-size: 13px;
+#role {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-weight: 600;
+  font-size: 15px;
   line-height: 16px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #344563;
+  color: #7a869a;
+  text-align: center;
 }
 
-#img-point {
-  height: 8px;
-  width: 8px;
-  left: 67px;
-  top: 12px;
-  border-radius: 0;
-  padding-left: 12px;
-  padding-right: 12px;
-}
-
-#img-point-2 {
-  height: 8px;
-  width: 8px;
-  left: 187px;
-  top: 12px;
-  border-radius: 0;
+#year {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   padding-left: 10px;
-  padding-top: 2px;
-}
-
-#role::before {
-  content: "Back End Dev";
-  height: 16px;
-  width: 88px;
-  left: 0;
-  top: 8px;
-  padding: 8px 0 8px 0;
-  font-size: 12px;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 16px;
   line-height: 16px;
-  letter-spacing: 0;
-  text-align: left;
   color: #7a869a;
+  text-align: center;
 }
 
-#year::before {
-  content: "2015";
-  top: 8px;
-  font-size: 13px;
-  text-align: left;
-  color: #7a869a;
-  padding-right: 75px;
-  padding-left: 12px;
-  padding-top: 4px;
+#canopy {
+  font-family: 'Poppins', sans-serif;
+  width: 55px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #344563;
+  text-align: center;
 }
 
 #description-2 {
   height: 76px;
   width: 295px;
   margin: 0;
-}
-
-#description-2::before {
-  content: "A daily selection of privately personalized reads; no accounts or sign-ups required.";
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
-  color: #344563;
-  text-align: start;
 }
 
 #tags-list {
@@ -361,12 +304,12 @@ main {
   flex-direction: row;
   list-style: none;
   text-align: left;
-  padding-left: 8px;
+  padding-left: 0;
 }
 
 .tag {
   text-decoration: none;
-  padding: 4px 12px 4px 12px;
+  color: #6070ff;
 }
 
 #h-tag {
@@ -378,9 +321,27 @@ main {
   padding: 4px 12px 4px 12px;
   background: #ebebff;
   margin-right: 8px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
 }
 
 #c-tag {
+  height: 24px;
+  width: max-content;
+  left: 65px;
+  top: 0;
+  padding: 4px 12px 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-right: 8px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
+}
+
+#j-tag,
+#b-tag {
   height: 24px;
   width: 49px;
   left: 65px;
@@ -388,17 +349,9 @@ main {
   padding: 4px 12px 4px 12px;
   background: #ebebff;
   border-radius: 8px;
-  margin-right: 8px;
-}
-
-#j-tag {
-  height: 24px;
-  width: 92px;
-  left: 122px;
-  top: 0;
-  padding: 4px 12px 4px 12px;
-  background: #ebebff;
-  border-radius: 8px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
 }
 
 #html {
@@ -448,9 +401,13 @@ main {
   left: 0;
   top: 216px;
   border-radius: 0;
-  padding: 16px 16px 16px 12px;
+  margin-top: 24px;
 }
 
+.NormalB1,
+.NormalB2,
+.NormalB3,
+.NormalB4,
 .NormalB {
   height: 48px;
   width: 126px;
@@ -465,6 +422,10 @@ main {
   border-radius: 8px;
 }
 
+.NormalB1::before,
+.NormalB2::before,
+.NormalB3::before,
+.NormalB4::before,
 .NormalB::before {
   content: "See project";
   height: 24px;
@@ -482,36 +443,32 @@ main {
   font-style: normal;
 }
 
+.NormalB1:hover::before,
+.NormalB2:hover::before,
+.NormalB3:hover::before,
+.NormalB4:hover::before,
 .NormalB:hover::before {
   color: #fff;
 }
 
+.NormalB1:active::before,
+.NormalB2:active::before,
+.NormalB3:active::before,
+.NormalB4:active::before,
 .NormalB:active::before {
   color: #fff;
 }
 
+.NormalB1:hover,
+.NormalB2:hover,
+.NormalB3:hover,
+.NormalB4:hover,
 .NormalB:hover {
   background-color: #6070ff;
 }
 
 .NormalB:active {
   background-color: #2230d2;
-}
-
-#sbutton {
-  height: 24px;
-  width: 90px;
-  left: 12px;
-  top: 12px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #396df2;
-  flex: none;
-  order: 0;
-  font-family: 'Poppins', sans-serif;
-  flex-grow: 0;
-  font-size: 14px;
-  font-style: normal;
 }
 
 .Myself {
@@ -579,6 +536,8 @@ main {
   font-style: normal;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.03em;
+  margin-left: 24px;
+  margin-top: 8px;
 }
 
 .Normalbc::before {
@@ -880,6 +839,258 @@ main {
   background-color: #737de4;
 }
 
+#popup-c {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background-color: #ccced158;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 80%;
+  height: auto;
+  top: 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin: 114px auto;
+}
+
+.show {
+  left: 100%;
+}
+
+.project-tittlep {
+  height: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0;
+}
+
+.details .frame {
+  margin: 0;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details .img-container {
+  width: 20px;
+}
+
+.details #img-point {
+  width: max-content;
+  height: max-content;
+  padding: 0;
+}
+
+.project-tittlep::before {
+  content: "Tonic";
+}
+
+.tittlec {
+  height: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 44px;
+  margin: 0;
+}
+
+.tittlec::before {
+  content: "Multi-Post Stories";
+}
+
+.details #canopy::before {
+  content: "CANOPY";
+  margin-right: 6px;
+}
+
+.details #role::before {
+  content: "Back End Dev";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.details #year::before {
+  content: "2015";
+  font-weight: 600;
+  font-size: 13px;
+  padding: 0;
+}
+
+.details .txt {
+  padding: 0;
+}
+
+.descriptionm,
+.descriptiondsk {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.screen-shotp {
+  width: 100%;
+  height: 289px;
+  border-radius: 8px;
+  background-image: url(img/Snapshoot1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.screen-shotp2 {
+  width: 100%;
+  height: 289px;
+  border-radius: 8px;
+  background-image: url(img/Snapshoot2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.screen-shotp3 {
+  width: 100%;
+  height: 289px;
+  border-radius: 8px;
+  background-image: url(img/Snapshoot3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.screen-shotp4 {
+  width: 100%;
+  height: 289px;
+  border-radius: 8px;
+  background-image: url(img/Snapshoot4.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.details #tags-list {
+  margin: 16px;
+  margin-left: 0;
+}
+
+.details #h-tag {
+  height: 24px;
+  width: max-content;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+}
+
+.details #j-tag {
+  height: 24px;
+  width: max-content;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  margin-right: 6px;
+}
+
+.sbtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gitB,
+.LiveB {
+  height: 48px;
+  padding: 0;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-right: 7px;
+  display: flex;
+  align-items: center;
+  width: 136px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.LiveB::before {
+  border-radius: 8px;
+  content: "See live";
+  color: #396df2;
+  padding: 0;
+  margin: 0;
+  width: 60px;
+  padding-left: 22px;
+  padding-right: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.gitB::before {
+  content: "See source";
+  color: #396df2;
+  width: max-content;
+  height: max-content;
+  left: 0;
+  padding-left: 8px;
+  padding-right: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.live-img {
+  width: 18px;
+  height: 18px;
+  top: 3px;
+}
+
+.email__error,
+.fields__error {
+  display: none;
+}
+
+.hidden_email_error,
+.hidden_fields_error {
+  height: 35px;
+  width: 347px;
+  display: flex;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #fff;
+  background-color: #e6002a;
+  line-height: 35px;
+  justify-content: center;
+  border: 2px solid #fff; 
+}
+
 @media (max-width: 992px) {
   .portfolio {
     width: 100%;
@@ -962,8 +1173,11 @@ main {
   }
 
   .img-close {
-    height: 14px;
-    width: 14px;
+    height: 12px;
+    width: 12px;
+    left: 6px;
+    top: 6px;
+    border-radius: 0;
   }
 
   #r-tag {
@@ -971,6 +1185,19 @@ main {
   }
 
   .cursor {
+    display: none;
+  }
+
+  .top-p {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #tags-list2 {
+    display: none;
+  }
+
+  .descriptiondsk {
     display: none;
   }
 }
@@ -1169,23 +1396,12 @@ main {
     padding: 0;
   }
 
-  .screenshot-img {
-    display: none;
-  }
-
   .screen-shot {
-    height: 100%;
-    width: 100%;
+    height: 448px;
+    width: 544px;
+    left: 24px;
+    top: 24px;
     border-radius: 8px;
-    margin-top: 24px;
-    box-sizing: content-box;
-  }
-
-  .screen-shot:hover {
-    animation-name: scale;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
-    animation-delay: 1.5s;
   }
 
   .my-works {
@@ -1199,16 +1415,28 @@ main {
   }
 
   .Works {
-    height: 496px;
-    width: 100%;
+    height: 500px;
+    width: 1156px;
+    left: 0;
     top: 0;
     border-radius: 24px;
     margin: 0;
     padding: 0;
-    margin-bottom: 142px;
+    padding-top: 12px;
+    padding-left: 12px;
     display: flex;
     flex-direction: row;
     background-color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .screenshot-img {
+    height: 448px;
+    width: 544px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
   }
 
   #tonic {
@@ -1217,12 +1445,17 @@ main {
     left: 24px;
     top: 24px;
     border-radius: 8px;
-    background-image: url(img/tonic.png);
+    background-image: url(img/Snapshoot4.png);
     background-size: cover;
   }
 
   .text-block {
-    width: min-content;
+    height: 445px;
+    width: 544px;
+    left: 590px;
+    top: 24px;
+    border-radius: 0;
+    padding: 24px;
   }
 
   .tags {
@@ -1233,12 +1466,37 @@ main {
     padding: 0;
   }
 
+  #h-tag {
+    height: 24px;
+    left: 61px;
+    top: 0;
+    padding: 4px 12px 4px 12px;
+    width: fit-content;
+    border-radius: 8px;
+  }
+
   #h-tag:hover {
     transform: scale(1.5);
   }
 
+  #c-tag {
+    height: 24px;
+    width: max-content;
+    border-radius: 8px;
+    padding: 4px 12px;
+  }
+
   #c-tag:hover {
     transform: scale(1.5);
+  }
+
+  #j-tag {
+    height: 24px;
+    left: 61px;
+    top: 0;
+    padding: 4px 12px 4px 12px;
+    width: fit-content;
+    border-radius: 8px;
   }
 
   #j-tag:hover {
@@ -1285,23 +1543,16 @@ main {
 
   #r-tag {
     height: 24px;
-    width: 107px;
-    left: 122px;
-    top: 0;
-    padding: 4px 12px 4px 12px;
-    background: #ebebff;
+    width: max-content;
     border-radius: 8px;
+    background: #ebebff;
     margin-right: 8px;
-  }
-
-  #r-tag:hover {
-    transform: scale(1.5);
   }
 
   #ruby {
     background: #ebebff;
     border-radius: 8px;
-    width: 68px;
+    width: max-content;
     height: 16px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1316,6 +1567,30 @@ main {
     padding: 0;
   }
 
+  .project-tittle {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #role {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+  }
+
+  #canopy {
+    font-family: 'Poppins', sans-serif;
+    width: 75px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    color: #344563;
+    text-align: center;
+  }
+
   .txt:hover {
     transform: scale(1.5);
   }
@@ -1328,20 +1603,9 @@ main {
     text-align: left;
   }
 
-  #c-multi #canopy::before {
-    content: "FACEBOOK";
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #344563;
-  }
-
   #description-2 {
     height: 70px;
-    width: 400px;
+    width: 100%;
     left: 24px;
     top: 146px;
   }
@@ -1358,10 +1622,6 @@ main {
     padding: 0;
   }
 
-  #c-multi #description-2::before {
-    content: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.";
-  }
-
   #role::before {
     font-size: 18px;
     font-weight: 400;
@@ -1370,103 +1630,12 @@ main {
     text-align: left;
   }
 
-  #year::before {
+  #year {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0;
     text-align: left;
-  }
-
-  #c-multi #role::before {
-    content: "Full Stack Dev";
-  }
-
-  .project-tittle {
-    margin: 0;
-    padding-top: 48px;
-  }
-
-  #c-tonic .project-tittle::before {
-    content: "Tonic";
-    height: 36px;
-    width: 295px;
-    left: 0;
-    top: 0;
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #172b4d;
-  }
-
-  #c-facebook .project-tittle::before {
-    content: "Facebook 360";
-    width: 496px;
-    height: 46px;
-    left: 0;
-    top: 0;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    text-align: left;
-    color: #091e42;
-  }
-
-  #c-facebook #role::before {
-    content: "Full Stack Dev";
-  }
-
-  #c-multi .project-tittle::before {
-    content: "Multi-Post Stories";
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 0;
-    text-align: left;
-    color: #172b4d;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-  }
-
-  #c-uber .project-tittle::before {
-    content: "Uber Navigation";
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 0;
-    text-align: left;
-    color: #172b4d;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-  }
-
-  #c-uber #role::before {
-    content: "Lead Developer";
-  }
-
-  #c-uber #canopy::before {
-    content: "Uber";
-  }
-
-  #c-uber #year::before {
-    content: "2018";
-  }
-
-  #c-facebook #canopy::before {
-    content: "FACEBOOK";
-  }
-
-  #c-facebook #description-2::before {
-    content: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.";
-  }
-
-  #c-uber #description-2::before {
-    content: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.";
   }
 
   .NormalB {
@@ -1606,6 +1775,10 @@ main {
     padding: 12px 12px 0 12px;
   }
 
+  .Normalbc {
+    margin-left: 0;
+  }
+
   .jmenu-txt {
     width: 98px;
     height: 24px;
@@ -1697,5 +1870,109 @@ main {
 
   .message-field:hover {
     transform: scale(1.15);
+  }
+
+  .top-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #popup-c {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: #ccced158;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 80%;
+    height: auto;
+    top: 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin: 77px auto;
+  }
+
+  .details #role {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .details #year {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .header-4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .body-2 {
+    display: flex;
+  }
+
+  .buttons {
+    height: 157px;
+    width: 306px;
+    left: 826px;
+    top: 781px;
+    border-radius: 0;
+  }
+
+  #tags-list2 {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  #b-tag,
+  #r-tag {
+    align-items: center;
+    padding: 4px 12px;
+    width: max-content;
+    height: 24px;
+  }
+
+  #r-tag:hover {
+    transform: scale(1.5);
+  }
+
+  .descriptiondsk {
+    width: 700px;
+    height: 271px;
+    text-align: start;
+  }
+
+  .descriptionm {
+    display: none;
+  }
+
+  .screen-shotp {
+    width: 100%;
+    height: 586px;
+    left: 0;
+    top: 0;
+    border-radius: 8px;
+    background-image: url(img/popup.png);
+    background-size: cover;
+    background-position: center;
   }
 }
