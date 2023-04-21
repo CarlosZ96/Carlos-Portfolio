@@ -1,7 +1,6 @@
 const ham = document.querySelector('.hamburguer');
 const img = document.querySelector('.img-close');
 const menu = document.querySelector('.mbl-menu');
-const imgcls = document.querySelector('.img-close2');
 const mtag1 = document.querySelector('.m-menu-tag1');
 const mtag2 = document.querySelector('.m-menu-tag2');
 const mtag3 = document.querySelector('.m-menu-tag3');

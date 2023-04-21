@@ -1,4 +1,5 @@
 const Mworks = document.getElementById("mwks");
+const detailsc = document.getElementById("popup-c");
 const workse = [
     {
         project_tittle: 'Tonic',
@@ -77,19 +78,18 @@ for (let i = 0; i < workse.length; i++) {
     </div>
     <div class="actions">
       <button class="NormalB">
-        <p id="sbutton"></p>
       </button>
     </div>
     </div>`
 }
 var popup = document.createElement('div');
-Mworks.append(popup);
+detailsc.append(popup);
 popup.className = 'details';
 popup.innerHTML = `
 <header class="header-4">
 <div class="top-p">
 <h2 class="project-tittle"></h2>
-<button id="btn-close2" alt="close menu"><img src="img/cros.png" class="img-close2"></button>
+<button class="btn-close2" alt="close menu"><img src="img/cros.png" class="img-close2"></button>
 </div>
 <ul class="frame">
   <li class="txt" id="canopy"></li>
@@ -112,13 +112,21 @@ popup.innerHTML = `
   <li  id="b-tag"><a href="#" class="tag" id="JavaScript">Bootstrap</a></li>
 </ul>
 <div class="sbtn">
-<button class="NormalB">
+<button class="LiveB">
 <img src="img/live.png" alt="live-icon" class="live-img">
 <p id="sbutton"></p>
 </button>
-<button  class="NormalB" id="NormalB2">
-<img src="img/git.png" alt="live-icon" class="live-img">
-<p id="sbutton"></p>
+<button class="gitB">
+<img src="img/git.png" alt="github-icon" class="live-img">
 </button>
 </div>
 </div>`
+const see = document.querySelector('.NormalB');
+const cls = document.querySelector('.img-close2');
+
+see.addEventListener('click', () => {
+  detailsc.classList.remove('show');
+});
+cls.addEventListener('click', () => {
+  detailsc.classList.add('show');
+});
