@@ -403,7 +403,10 @@ main {
   border-radius: 0;
   margin-top: 24px;
 }
-
+.NormalB1,
+.NormalB2,
+.NormalB3,
+.NormalB4,
 .NormalB {
   height: 48px;
   width: 126px;
@@ -417,7 +420,10 @@ main {
   border: 1px solid #1a30ff;
   border-radius: 8px;
 }
-
+.NormalB1::before,
+.NormalB2::before,
+.NormalB3::before,
+.NormalB4::before,
 .NormalB::before {
   content: "See project";
   height: 24px;
@@ -435,14 +441,24 @@ main {
   font-style: normal;
 }
 
+.NormalB1:hover::before,
+.NormalB2:hover::before,
+.NormalB3:hover::before,
+.NormalB4:hover::before,
 .NormalB:hover::before {
   color: #fff;
 }
-
+.NormalB1:active::before,
+.NormalB2:active::before,
+.NormalB3:active::before,
+.NormalB4:active::before,
 .NormalB:active::before {
   color: #fff;
 }
-
+.NormalB1:hover,
+.NormalB2:hover,
+.NormalB3:hover,
+.NormalB4:hover,
 .NormalB:hover {
   background-color: #6070ff;
 }

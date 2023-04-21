@@ -77,7 +77,7 @@ for (let i = 0; i < workse.length; i += 1) {
       </ul>
     </div>
     <div class="actions">
-      <button class="NormalB">
+      <button class="NormalB${(i+1)}">
       </button>
     </div>
     </div>`;
@@ -138,7 +138,10 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
   </div>
 </div>
 </div>`;
-const see = document.querySelector('.NormalB');
+const see = document.querySelector('.NormalB1');
+const see2 = document.querySelector('.NormalB2');
+const see3 = document.querySelector('.NormalB3');
+const see4 = document.querySelector('.NormalB4');
 const cls = document.querySelector('.img-close2');
 const LiveB = document.querySelector('.LiveB');
 
@@ -149,4 +152,7 @@ cls.addEventListener('click', () => {
   detailsc.classList.add('show');
 });
 see.addEventListener('click', showi);
+see2.addEventListener('click', showi);
+see3.addEventListener('click', showi);
+see4.addEventListener('click', showi);
 LiveB.addEventListener('click', showi);
