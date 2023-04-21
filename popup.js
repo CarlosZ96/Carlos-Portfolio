@@ -88,7 +88,7 @@ popup.className = 'details';
 popup.innerHTML = `
 <header class="header-4">
 <div class="top-p">
-  <h2 class="project-tittle"></h2>
+  <h2 class="project-tittlep"></h2>
   <button class="btn-close2" alt="close menu"><img src="img/cros.png" class="img-close2"></button>
 </div>
 <ul class="frame">
@@ -144,15 +144,44 @@ const see3 = document.querySelector('.NormalB3');
 const see4 = document.querySelector('.NormalB4');
 const cls = document.querySelector('.img-close2');
 const LiveB = document.querySelector('.LiveB');
+const imgc = document.querySelector('.screen-shotp');
+const tittlec = document.querySelector('.project-tittlep');
 
 function showi() {
   detailsc.classList.remove('show');
 }
+function change2() {
+  imgc.classList.add('screen-shotp2');
+  imgc.classList.remove('screen-shotp');
+}
+function change3() {
+  imgc.classList.add('screen-shotp3');
+  imgc.classList.remove('screen-shotp');
+}
+function change4() {
+  imgc.classList.add('screen-shotp4');
+  imgc.classList.remove('screen-shotp');
+}
+function changet() {
+  tittlec.classList.add('tittlec');
+  tittlec.classList.remove('project-tittlep');
+}
 cls.addEventListener('click', () => {
   detailsc.classList.add('show');
+  imgc.classList.add('screen-shotp');
+  imgc.classList.remove('screen-shotp2');
+  imgc.classList.remove('screen-shotp3');
+  imgc.classList.remove('screen-shotp4');
+  tittlec.classList.add('project-tittlep');
+  tittlec.classList.remove('tittlec');
 });
 see.addEventListener('click', showi);
 see2.addEventListener('click', showi);
+see2.addEventListener('click', change2);
+see2.addEventListener('click', changet);
 see3.addEventListener('click', showi);
+see3.addEventListener('click', change3);
 see4.addEventListener('click', showi);
+see4.addEventListener('click', change4);
+see4.addEventListener('click', changet);
 LiveB.addEventListener('click', showi);

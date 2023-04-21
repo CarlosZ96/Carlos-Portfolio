@@ -872,7 +872,7 @@ main {
   left: 100%;
 }
 
-.details .project-tittle {
+.project-tittlep {
   height: 35px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -899,8 +899,22 @@ main {
   padding: 0;
 }
 
-.details .project-tittle::before {
+.project-tittlep::before {
   content: "Tonic";
+}
+
+.tittlec{
+  height: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 44px;
+  margin: 0;
+}
+
+.tittlec::before{
+  content: "Multi-Post Stories";
 }
 
 .details #canopy::before {
@@ -942,10 +956,38 @@ main {
   width: 100%;
   height: 289px;
   border-radius: 8px;
-  background-image: url(img/details.png);
+  background-image: url(img/Snapshoot1.png);
   background-size: cover;
   background-position: center;
 }
+
+.screen-shotp2{
+  width: 100%;
+  height: 289px;
+  border-radius: 8px;
+  background-image: url(img/Snapshoot2.png);
+  background-size: cover;
+  background-position: center; 
+}
+
+.screen-shotp3{
+  width: 100%;
+  height: 289px;
+  border-radius: 8px;
+  background-image: url(img/Snapshoot3.png);
+  background-size: cover;
+  background-position: center; 
+}
+.screen-shotp4{
+  width: 100%;
+  height: 289px;
+  border-radius: 8px;
+  background-image: url(img/Snapshoot4.png);
+  background-size: cover;
+  background-position: center; 
+}
+
+
 
 .details #tags-list {
   margin: 16px;
