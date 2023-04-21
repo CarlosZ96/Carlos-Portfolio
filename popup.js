@@ -137,9 +137,10 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 const see = document.querySelector('.NormalB');
 const cls = document.querySelector('.img-close2');
 
-see.addEventListener('click', () => {
+function showi() {
   detailsc.classList.remove('show');
-});
+}
 cls.addEventListener('click', () => {
   detailsc.classList.add('show');
 });
+see.addEventListener('click',showi);
