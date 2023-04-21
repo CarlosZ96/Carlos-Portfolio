@@ -46,7 +46,7 @@ const workse = [
 ];
 
 for (let i = 0; i < workse.length; i += 1) {
-  let section = document.createElement('section');
+  const section = document.createElement('section');
   Mworks.append(section);
   section.className = 'Works';
   section.innerHTML = `
@@ -82,7 +82,7 @@ for (let i = 0; i < workse.length; i += 1) {
     </div>
     </div>`;
 }
-let popup = document.createElement('div');
+const popup = document.createElement('div');
 detailsc.append(popup);
 popup.className = 'details';
 popup.innerHTML = `

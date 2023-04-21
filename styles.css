@@ -1115,7 +1115,6 @@ main {
   .descriptiondsk {
     display: none;
   }
-
 }
 
 @media (min-width: 992px) {
@@ -1408,7 +1407,6 @@ main {
 
   #j-tag {
     height: 24px;
-    width: 105px;
     left: 61px;
     top: 0;
     padding: 4px 12px 4px 12px;
@@ -1464,10 +1462,6 @@ main {
     border-radius: 8px;
     background: #ebebff;
     margin-right: 8px;
-  }
-
-  #r-tag:hover {
-    transform: scale(1.5);
   }
 
   #ruby {
@@ -1872,6 +1866,10 @@ main {
     height: 24px;
   }
 
+  #r-tag:hover {
+    transform: scale(1.5);
+  }
+
   .descriptiondsk {
     width: 700px;
     height: 271px;
@@ -1892,5 +1890,4 @@ main {
     background-size: cover;
     background-position: center;
   }
-
 }
