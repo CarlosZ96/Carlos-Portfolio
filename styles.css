@@ -1088,7 +1088,8 @@ main {
   background-color: #e6002a;
   line-height: 35px;
   justify-content: center;
-  border: 2px solid #fff; 
+  border: 2px solid #fff;
+  transition: 1,5s; 
 }
 
 @media (max-width: 992px) {
